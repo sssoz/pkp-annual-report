@@ -1,0 +1,9 @@
+/* Fonts mixins */
+
+@mixin font-serif {
+  font-family: 'Aleo', serif;
+}
+
+@mixin font-sans {
+  font-family: 'Inter', sans-serif;
+}
