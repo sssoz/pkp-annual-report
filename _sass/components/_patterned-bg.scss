@@ -1,0 +1,10 @@
+.patterned-bg:before {
+  position: absolute;
+  margin-top: -20vh;
+  right: 0;
+  overflow-x: hidden;
+  transform: rotate(180deg);
+  // transform: scaleX(-1);
+  // transform: scaleY(-1);
+  @include svg-bg($ladders, 75vh, 100%);
+}

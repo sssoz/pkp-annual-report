@@ -10,6 +10,16 @@
   }
 }
 
+@mixin svg-bg($img, $height, $width) {
+  display: inline-block;
+  content: ' ';
+  height: $height;
+  width: $width;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url($img);
+}
+
 .print-only {
   display: none;
 }

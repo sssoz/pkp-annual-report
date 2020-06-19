@@ -12,8 +12,11 @@
     font-weight: 900;
   }
 
-  h1 {
-
+  &:before {
+    position: absolute;
+    left: -5%;
+    overflow-x: hidden;
+    @include svg-bg($grid, 100%, 100%);
   }
 }
 
