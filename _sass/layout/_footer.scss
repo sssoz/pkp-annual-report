@@ -1,0 +1,6 @@
+footer {
+  @extend .section--inverted;
+  margin: -3vw;
+  padding-bottom: 3vw;
+  @include typescale-06;
+}
