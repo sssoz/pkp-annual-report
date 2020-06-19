@@ -5,7 +5,7 @@ button,
   display: inline-block;
   padding: $spacing-02;
   cursor: pointer;
-  border: 2px solid $prussian-blue;
+  border: $border-third solid $prussian-blue;
   background-color: transparent;
   color: $prussian-blue;
   transition: all 150ms ease-in;
