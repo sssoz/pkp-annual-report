@@ -1,6 +1,7 @@
 .patterned-bg:before {
   position: absolute;
   margin-top: -20vh;
+  z-index: 0;
   right: 0;
   overflow-x: hidden;
   @include svg-bg($ladders, 75vh, 100%);

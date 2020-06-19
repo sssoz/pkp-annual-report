@@ -11,6 +11,7 @@
   > p {
     margin-bottom: $spacing-05;
     width: 66.666667%;
+    z-index: 1;
     @include typescale-05;
 
     &:nth-of-type(even) {
