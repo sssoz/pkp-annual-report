@@ -1,4 +1,4 @@
-/* General styles */
+/* General typography */
 
 html {
   scroll-behavior: smooth;
@@ -21,7 +21,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.15;
-  font-weight: 400;
 }
 
 h1 {
@@ -58,38 +57,8 @@ p {
 }
 
 ul, ol {
-  padding-left: $spacing-04;
 
   ul, ol {
     margin-left: $spacing-03;
   }
-}
-
-a {
-  text-decoration: underline;
-  color: $black;
-  transition: all 250ms ease;
-
-  &:hover,
-  &:focus,
-  &:active {
-    text-decoration: none;
-  }
-}
-
-hr {
-  margin: $spacing-05 0;
-  border: 0;
-  height: 10px;
-  background-color: $black;
-}
-
-img {
-  height: auto;
-  max-width: 100%;
-}
-
-::selection {
-  background-color: $prussian-blue;
-  color: $white;
 }

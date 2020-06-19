@@ -9,7 +9,7 @@ blockquote {
   &:after {
     display: block;
     content: '';
-    height: 10px;
+    height: $border-half;
     width: 15vw;
     background-color: $prussian-blue;
   }

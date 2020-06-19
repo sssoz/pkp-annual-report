@@ -1,0 +1,9 @@
+/* Variables for borders
+   Use with borders, horizontal rules, outlines...?
+   Base unit: 20px */
+
+$border:          20px;
+$border-triple:   $border*3;
+$border-double:   $border*2;
+$border-half:     $border/2;
+$border-third:    $border/3;

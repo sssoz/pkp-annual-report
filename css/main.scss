@@ -8,20 +8,25 @@
 @import
   "vendors/normalize",
 
+  "base/animations",
+  "base/borders",
+  "base/fonts",
+  "base/grid",
   "base/palette",
   "base/spacing",
   "base/typescale",
-  "base/animations",
-  "base/fonts",
-  "base/typography",
-  "base/grid",
   "base/utils",
+  "base/typography",
 
+  "components/a",
   "components/blockquote",
   "components/button",
   "components/cite",
+  "components/hr",
+  "components/img",
   "components/ordered-list",
   "components/section",
+  "components/selection",
   "components/table",
 
   "themes/print"

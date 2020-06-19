@@ -19,7 +19,7 @@
       &:last-child {
         display: inline-block;
         padding-top: $spacing-03;
-        border-top: 20px solid $buttercup-yellow;
+        border-top: $border solid $buttercup-yellow;
         @include font-serif;
       }
     }
