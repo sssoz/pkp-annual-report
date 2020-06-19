@@ -16,19 +16,16 @@
     &:nth-of-type(even) {
       text-align: right;
       margin-left: 33.33333%;
+
+      &:before {
+        
+      }
     }
   }
 
   h3, h4, p {
     + blockquote {
       margin-top: $spacing-05;
-    }
-  }
-
-  h3, h4 {
-    + p:nth-of-type(even) {
-      text-align: left;
-      margin-left: 0;
     }
   }
 }

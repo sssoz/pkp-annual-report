@@ -8,6 +8,7 @@ intro: "How does the world’s most widely used free and open source journal pub
 
 > {% include placeholder.html %} <cite>&ndash; **Allan Bell** <br/>[title, institution]</cite>
 
+---
 
 ### You publish open.
 

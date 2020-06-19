@@ -23,14 +23,23 @@
       flex-basis: 0px;
       flex-grow: 1;
       overflow: hidden;
+
+      &:before {
+        display: block;
+        content: ' ';
+        height: $border;
+        width: 100%;
+        background: $brick-red;
+      }
     }
 
     &--left {
-      margin-left: -3vw;
       margin-bottom: -$spacing-05;
+      margin-left: -3vw;
     }
 
     &--right {
+      margin-top: 0;
       margin-right: -3vw;
       margin-bottom: -$spacing-05;
     }
