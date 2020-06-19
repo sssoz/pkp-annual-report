@@ -1,6 +1,7 @@
 ---
 heading: Services
 subheading: We serve open.
+highlighted: true
 ---
 
 ### [Coalition Publica]

@@ -1,6 +1,6 @@
 ---
 heading: Thank You
-highlighted: true
+inverted: true
 ---
 
 ### Sustainers

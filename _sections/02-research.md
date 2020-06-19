@@ -2,6 +2,7 @@
 heading: Research
 subheading: We research open.
 intro: "When PKP was founded, a major barrier to connecting the academy to the larger world was restricted access to research through print publications and subscription paywalls. Our research continues to identify those barriers, providing solutions and proposing models that facilitate open access on a global scale."
+highlighted: true
 ---
 
 ### Copyright Reform

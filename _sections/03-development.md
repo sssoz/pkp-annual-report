@@ -2,7 +2,6 @@
 heading: Development
 subheading: We develop open.
 intro: "For more than twenty years, PKP has been developing free and open source software that improves and adapts with the changing publishing ecosystem. In 2019…"
-inverted: true
 ---
 
 ### [Open Preprint Systems]
