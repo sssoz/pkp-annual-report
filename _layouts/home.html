@@ -19,7 +19,7 @@ layout: compress
 
       <section class="section{% if section.inverted %} section--inverted
         {% elsif section.highlighted %} section--highlighted{% endif %}"
-        id="{{ section.url | remove: '.html' | remove: '/sections/' }}">
+        id="{{ section.url | remove: '.html' | remove: '/sections/' | slice: 3, section.url.size }}">
         <header class="section__header">
           <h2>
             <span class="section__heading">{{ section.heading }}</span>{% if section.subheading %}<span class="sr-only">: </span><span class="section__subheading">{{ section.subheading }}</span>{% endif %}
