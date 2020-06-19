@@ -67,3 +67,30 @@ intro: "How does the world’s most widely used free and open source journal pub
 > <cite>**Ubiquity**</cite> <br/>{% include placeholder.html %}
 
 > <cite>**SciELO**</cite> <br/> {% include placeholder.html %}
+
+
+<!-- <div class="blockquotes">
+  <blockquote>
+    <cite>
+      <strong>University of Toronto</strong>
+    </cite>
+    <br/>
+    {% include placeholder.html %}
+  </blockquote>
+
+  <blockquote>
+    <cite>
+      <strong>Ubiquity</strong>
+    </cite>
+    <br/>
+    {% include placeholder.html %}
+  </blockquote>
+
+  <blockquote>
+    <cite>
+      <strong>SciELO</strong>
+    </cite>
+    <br/>
+    {% include placeholder.html %}
+  </blockquote>
+</div> -->
