@@ -10,6 +10,7 @@ intro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada
 
 ### [OJS/OMP 3.2]
 
+{:.patterned-bg}
 {% include placeholder.html %}
 
 

@@ -3,8 +3,23 @@
   margin-top: -20vh;
   right: 0;
   overflow-x: hidden;
-  transform: rotate(180deg);
-  // transform: scaleX(-1);
-  // transform: scaleY(-1);
   @include svg-bg($ladders, 75vh, 100%);
+}
+
+p {
+  &:nth-of-type(odd) {
+
+    &.patterned-bg:before {
+      transform: rotate(180deg);
+    }
+
+  }
+
+  &:nth-of-type(even) {
+
+    &.patterned-bg:before {
+      transform: rotate(0deg);
+      transform: scaleY(-1);
+    }
+  }
 }

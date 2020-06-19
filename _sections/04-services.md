@@ -7,7 +7,10 @@ highlighted: true
 
 ### [Coalition Publica]
 
-{% include placeholder-long.html %}
+{% include placeholder.html %}
+
+{:.patterned-bg}
+{% include placeholder.html %}
 
 ### [Publishing Services]
 
