@@ -5,15 +5,14 @@
 
   <body>
 
+    <header class="section section--inverted">
+      <h1>
+        {{ site.title }} <br/>
+        {{ site.year }}
+      </h1>
+    </header>
+
     <main>
-
-      <header class="section section--inverted">
-        <h1>
-          {{ site.title }} <br/>
-          {{ site.year }}
-        </h1>
-
-      </header>
 
       {% for section in site.sections %}
       <section
@@ -21,7 +20,7 @@
         {% if section.inverted %} section--inverted
         {% elsif section.highlighted %} section--highlighted
         {% endif %}"
-        id="{{ section.url }}"
+        id="{{ section.url | remove: '.html' | remove: '/sections/' }}"
       >
         <header class="section__header">
           <h2>
@@ -38,10 +37,10 @@
       </section>
       {% endfor %}
 
-      {% include footer.html %}
-
     </main>
 
+    {% include footer.html %}
+    
   </body>
 
 </html>
