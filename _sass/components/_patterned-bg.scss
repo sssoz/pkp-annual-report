@@ -1,26 +1,31 @@
-.patterned-bg:before {
-  position: absolute;
-  margin-top: -20vh;
-  z-index: 0;
-  right: 0;
-  overflow-x: hidden;
-  @include svg-bg($ladders, 75vh, 100%);
+.patterned-bg {
+  position: relative;
+  z-index: 1;
+
+  &:before {
+    position: absolute;
+    margin-top: -20vh;
+    z-index: -1;
+    right: 0;
+    overflow-x: hidden;
+    @include svg-bg($ladders, 75vh, 100%);
+  }
 }
 
-p {
-  &:nth-of-type(odd) {
-
+.section > p {
+  &:nth-of-type(even) {
+    // Displayed on the left
     &.patterned-bg:before {
-      transform: rotate(180deg);
+      left: -50%;
+      transform: scaleY(-1);
     }
-
   }
 
-  &:nth-of-type(even) {
-
+  &:nth-of-type(odd) {
+    // Displayed on the right
     &.patterned-bg:before {
-      transform: rotate(0deg);
-      transform: scaleY(-1);
+      right: -50%;
+      transform: rotate(180deg);
     }
   }
 }
