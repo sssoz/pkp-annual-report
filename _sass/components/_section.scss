@@ -5,29 +5,26 @@
 
   h2 {
     margin-top: 0;
-
-    span {
-      display: block;
-
-      &:first-child {
-        margin-bottom: $spacing-02;
-        font-weight: 900;
-        font-size: 0.5em;
-        text-transform: uppercase;
-      }
-
-      &:last-child {
-        display: inline-block;
-        padding-top: $spacing-03;
-        border-top: $border solid $buttercup-yellow;
-        @include font-serif;
-      }
-    }
   }
 }
 
 .section__header {
   margin-bottom: $spacing-05;
+}
+
+.section__heading {
+  display: block;
+  margin-bottom: $spacing-02;
+  font-weight: 900;
+  font-size: 0.5em;
+  text-transform: uppercase;
+}
+
+.section__subheading {
+  display: inline-block;
+  padding-top: $spacing-03;
+  border-top: $border solid $buttercup-yellow;
+  @include font-serif;
 }
 
 .section--inverted {
