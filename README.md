@@ -17,7 +17,7 @@ A static one-pager for the Public Knowledge Project’s (PKP) annual report buil
   - `_themes`: print styles overrides 
   - `_vendors`: third-party stylesheets 
   - All partials are imported in `css/main.scss`
-- All _chapter_ or section of the report are in `_sections`
+- _Chapters_ or sections of the report are in `_sections`
   - Each section is prefixed with a number, determining its order
   - One Markdown file per section
   - Every section has frontmatter: 
