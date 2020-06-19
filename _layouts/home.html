@@ -9,12 +9,7 @@ layout: compress
 
   <body>
 
-    <header class="section section--inverted">
-      <h1>
-        {{ site.title }} <br/>
-        {{ site.year }}
-      </h1>
-    </header>
+    {% include header.html %}
 
     <main>
 
@@ -30,8 +25,21 @@ layout: compress
           </h2>
 
           {% if section.intro %}
-          {{ section.intro }}
+          <div class="intro">
+            <div class="intro__content">
+              <div>
+                {{ section.intro }}
+              </div>
+            </div>
+
+            <div class="intro__figure">
+              <div>
+                <img src="https://source.unsplash.com/featured/?abstract" alt=""/>
+              </div>
+            </div>
+          </div>
           {% endif %}
+
         </header>
 
         {{ section.content }}

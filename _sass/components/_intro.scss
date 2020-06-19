@@ -1,0 +1,24 @@
+.intro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: space-between;
+
+  .intro__content,
+  .intro__figure {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .intro__figure {
+    margin: -6vw -3vw 0 -3vw;
+
+    > div {
+      flex-basis: 0px;
+      flex-grow: 1;
+      overflow: hidden;
+    }
+  }
+}
