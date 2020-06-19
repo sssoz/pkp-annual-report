@@ -1,7 +1,39 @@
 .header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: space-between;
   padding: 3vw;
 
   strong {
+    display: block;
+    margin-top: $spacing-03;
     font-weight: 900;
+  }
+
+  h1 {
+
+  }
+
+  nav {
+    position: fixed;
+    right: 3vw;
+    bottom: 3vw;
+    padding: $spacing-03;
+    align-self: flex-end;
+    background-color: $prussian-blue;
+    text-align: right;
+
+    ol {
+      @include unstyled-list;
+    }
+
+    a {
+      text-decoration: none;
+      font-weight: 800;
+      @include font-serif;
+    }
+
   }
 }
