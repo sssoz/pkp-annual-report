@@ -4,12 +4,17 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   align-content: space-between;
+  margin-bottom: $spacing-05;
 
   .intro__content,
   .intro__figure {
     display: flex;
     flex-direction: column;
     width: 50%;
+  }
+
+  .intro__content {
+    @include typescale-05;
   }
 
   .intro__figure {
@@ -21,11 +26,13 @@
     }
 
     &--left {
-      margin: 0 -3vw -$spacing-05 -3vw;
+      margin-left: -3vw;
+      margin-bottom: -$spacing-05;
     }
 
     &--right {
-      margin: -$spacing-05 -3vw 0 -3vw;
+      margin-right: -3vw;
+      margin-bottom: -$spacing-05;
     }
   }
 }

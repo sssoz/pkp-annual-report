@@ -4,12 +4,16 @@
   min-height: 100vh;
 
   h2 {
-    margin-top: 0;
+    margin: 0 0 $spacing-04 0;
   }
 }
 
 .section__header {
   margin-bottom: $spacing-05;
+
+  + h3 {
+    margin-top: $spacing-06;
+  }
 }
 
 .section__heading {
