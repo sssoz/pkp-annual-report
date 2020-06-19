@@ -17,4 +17,25 @@
       margin-left: 33.33333%;
     }
   }
+
+  #you-publish-open,
+  #you-support-open,
+  #you-sustain-open {
+    font-weight: 900;
+    @include font-serif;
+
+    + p {
+      padding: $spacing-04;
+      background-color: $athens-blue;
+    }
+
+    &:after {
+      margin-left: $spacing-02;
+      @include svg-bg("data:image/svg+xml,%3Csvg width='50' height='50' viewBox='0 0 50 50' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='25' cy='25' r='25' fill='%23992932'/%3E%3C/svg%3E%0A", $border-half, $border-half);
+    }
+  }
+
+  #you-publish-open {
+    
+  }
 }
