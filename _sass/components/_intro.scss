@@ -13,12 +13,19 @@
   }
 
   .intro__figure {
-    margin: -6vw -3vw 0 -3vw;
 
     > div {
       flex-basis: 0px;
       flex-grow: 1;
       overflow: hidden;
+    }
+
+    &--left {
+      margin: 0 -3vw -$spacing-05 -3vw;
+    }
+
+    &--right {
+      margin: -$spacing-05 -3vw 0 -3vw;
     }
   }
 }

@@ -14,17 +14,18 @@ layout: compress
     <main>
 
       {% for section in site.sections %}
-      <section
-        class="section{% if section.inverted %} section--inverted
+
+      {% capture section_cycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+
+      <section class="section{% if section.inverted %} section--inverted
         {% elsif section.highlighted %} section--highlighted{% endif %}"
-        id="{{ section.url | remove: '.html' | remove: '/sections/' }}"
-      >
+        id="{{ section.url | remove: '.html' | remove: '/sections/' }}">
         <header class="section__header">
           <h2>
             <span class="section__heading">{{ section.heading }}</span>{% if section.subheading %}<span class="sr-only">: </span><span class="section__subheading">{{ section.subheading }}</span>{% endif %}
           </h2>
 
-          {% if section.intro %}
+          {% if section.intro and section_cycle == 'odd' %}
           <div class="intro">
             <div class="intro__content">
               <div>
@@ -32,9 +33,25 @@ layout: compress
               </div>
             </div>
 
-            <div class="intro__figure">
+            <div class="intro__figure intro__figure--right">
               <div>
                 <img src="https://source.unsplash.com/featured/?abstract" alt=""/>
+                <!-- {% include svg/ladders-1.svg %} -->
+              </div>
+            </div>
+          </div>
+          {% elsif section.intro and section_cycle == 'even' %}
+          <div class="intro">
+            <div class="intro__figure intro__figure--left">
+              <div>
+                <img src="https://source.unsplash.com/featured/?abstract" alt=""/>
+                <!-- {% include svg/ladders-1.svg %} -->
+              </div>
+            </div>
+
+            <div class="intro__content">
+              <div>
+                {{ section.intro }}
               </div>
             </div>
           </div>
