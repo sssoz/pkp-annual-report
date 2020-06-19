@@ -1,0 +1,95 @@
+/* General styles */
+
+html {
+  scroll-behavior: smooth;
+  font-size: 20px;
+
+  @media (min-width: 768px) {
+    font-size: 24px;
+  }
+}
+
+body {
+  padding: 3vw;
+  color: $black;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  @include font-sans;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.15;
+  font-weight: 400;
+}
+
+h1 {
+  margin-top: 0;
+  @include typescale-01;
+}
+
+h2 {
+  @include typescale-02;
+}
+
+h3 {
+  @include typescale-03;
+}
+
+h4 {
+  @include typescale-04;
+}
+
+h5 {
+  @include typescale-05;
+}
+
+h6, small {
+  @include typescale-06;
+}
+
+p {
+  margin-bottom: $spacing-04;
+
+  &:last-child {
+    margin: 0;
+  }
+}
+
+ul, ol {
+  padding-left: $spacing-04;
+
+  ul, ol {
+    margin-left: $spacing-03;
+  }
+}
+
+a {
+  text-decoration: underline;
+  color: $black;
+  transition: all 250ms ease;
+
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: none;
+  }
+}
+
+hr {
+  margin: $spacing-05 0;
+  border: 0;
+  height: 1px;
+  background-color: $black;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+::selection {
+  background-color: $prussian-blue;
+  color: $white;
+}

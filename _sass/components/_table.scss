@@ -1,0 +1,30 @@
+table {
+  border-spacing: 0;
+  @include font-sans;
+  @include typescale-06;
+
+  th, td {
+    padding: $spacing-03 $spacing-05 $spacing-03 0;
+  }
+
+  thead {
+    text-align: left;
+
+    th {
+      border-bottom: 2px solid $black;
+      font-weight: 400;
+    }
+  }
+
+  tbody {
+    color: $coal;
+
+    td {
+      border-bottom: 1px solid rgba($black, 0.5);
+    }
+
+    tr:last-child td {
+      border: 0;
+    }
+  }
+}
