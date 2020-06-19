@@ -6,6 +6,12 @@
   h2 {
     margin: 0 0 $spacing-04 0;
   }
+
+  h3, h4, p {
+    + blockquote {
+      margin-top: $spacing-05;
+    }
+  }
 }
 
 .section__header {

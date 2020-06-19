@@ -1,15 +1,22 @@
 blockquote {
   margin: 0 0 $spacing-06 0;
+  width: 50%;
+  color: $prussian-blue;
+  @include font-serif;
+
+  > cite {
+    @include font-sans;
+  }
 
   &:last-child {
-    margin: 0;
+    margin-bottom: 0;
   }
 
   &:before,
   &:after {
     display: block;
     content: '';
-    height: $border-half;
+    height: $border;
     width: $border-triple;
     background-color: $prussian-blue;
   }
@@ -27,5 +34,27 @@ blockquote {
   &:before,
   &:after {
     background-color: $athens-blue;
+  }
+}
+
+.blockquote--centered {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  &:before,
+  &:after {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.blockquote--right {
+  margin-left: 50%;
+  text-align: right;
+
+  &:before,
+  &:after {
+    margin-right: 0;
   }
 }

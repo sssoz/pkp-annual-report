@@ -9,4 +9,5 @@ Today, OJS is the world’s most widely used free and open source publishing sof
 
 Our staff, services, and software have all changed over the years, but one thing remains the same: we are, and will always be, an academic project that develops and supports open infrastructure to improve the quality and reach of scholarly publishing. Join us as we look back at our top stories from 2019-2020. Discover what it means to us to be truly open.
 
+{:.blockquote--centered}
 > {% include placeholder.html %} <cite>&ndash; **John Willinsky**  <br/>Founder and Director, Public Knowledge Project</cite>

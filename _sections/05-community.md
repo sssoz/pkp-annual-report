@@ -4,6 +4,8 @@ subheading: Community makes us open.
 intro: "How does the world’s most widely used free and open source journal publishing platform remain open? The answer is easy: you. Behind PKP is a vibrant, passionate, and international community of contributors who help to make our software better, together."
 ---
 
+### [Some heading here]
+
 > {% include placeholder.html %} <cite>&ndash; **Allan Bell** <br/>[title, institution]</cite>
 
 
