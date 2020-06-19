@@ -16,6 +16,4 @@ inverted: true
 
 ### OJS Around the World
 
-> &hellip;OJS has survived (and even thrived) in an often dire-looking funding climate. It has survived because it addresses a very real need on the part of its large user base, one recognized not just by its users, but also by funding institutions, libraries, universities, and advocacy groups. OJS, having been originally conceived as a strategic intervention into the world of journal publishing, now shapes a significant portion of that world.
-
-&ndash; [Mind the Gap, 2019]
+> &hellip;OJS has survived (and even thrived) in an often dire-looking funding climate. It has survived because it addresses a very real need on the part of its large user base, one recognized not just by its users, but also by funding institutions, libraries, universities, and advocacy groups. OJS, having been originally conceived as a strategic intervention into the world of journal publishing, now shapes a significant portion of that world. <cite>&ndash; [Mind the Gap, 2019]</cite>
