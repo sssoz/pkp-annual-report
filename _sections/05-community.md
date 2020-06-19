@@ -60,6 +60,8 @@ intro: "How does the world’s most widely used free and open source journal pub
 
 {% include placeholder.html %}
 
+---
+
 ### [Why do you support PKP?]
 
 > <cite>**University of Toronto**</cite> <br/>{% include placeholder.html %}
