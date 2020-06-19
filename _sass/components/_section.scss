@@ -54,6 +54,17 @@
   padding-top: $spacing-03;
   border-top: $border solid $buttercup-yellow;
   @include font-serif;
+
+  &:after {
+    display: inline-block;
+    margin-left: $spacing-02;
+    content: ' ';
+    height: $border-half;
+    width: $border-half;
+    background-image: url("data:image/svg+xml,%3Csvg width='50' height='50' viewBox='0 0 50 50' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='25' cy='25' r='25' fill='%23992932'/%3E%3C/svg%3E%0A");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
 
 .section--inverted {

@@ -1,6 +1,6 @@
 ---
 heading: Welcome
-subheading: Come in, we’re open.
+subheading: Come in, we’re open
 intro: "The Public Knowledge Project (PKP) was established in 1998 as an academic project. Long before “open access” was coined, PKP was trying to solve the problem of cost as a barrier to creating and consuming scholarship online. Our team of scholars and students pursued this goal for nearly three years before, in 2001, Open Journal Systems (OJS) was born."
 ---
 

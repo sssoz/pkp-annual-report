@@ -1,6 +1,6 @@
 ---
 heading: Community
-subheading: Community makes us open.
+subheading: Community makes us open
 intro: "How does the world’s most widely used free and open source journal publishing platform remain open? The answer is easy: <strong>you</strong>. Behind PKP is a vibrant, passionate, and international community of contributors who help to make our software better, together."
 ---
 
