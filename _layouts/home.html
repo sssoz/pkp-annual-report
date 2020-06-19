@@ -5,6 +5,33 @@
 
   <body>
 
+    <main>
+
+      <header>
+        <h1>
+          {{ site.title }} <br/>
+          {{ site.year }}
+        </h1>
+
+      </header>
+
+      {% for section in site.sections %}
+      <section id="{{ section.url }}">
+        <h2>
+          <span>{{ section.heading }}</span><span class="sr-only">: </span>
+          <span>{{ section.subheading }}</span>
+        </h2>
+
+        {{ section.description }}
+
+        {{ section.content }}
+      </section>
+      {% endfor %}
+
+      {% include footer.html %}
+
+    </main>
+
   </body>
 
 </html>

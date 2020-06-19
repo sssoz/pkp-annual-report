@@ -2,30 +2,30 @@
 
 html {
   scroll-behavior: smooth;
-  font-size: 18px;
+  font-size: 20px;
 
   @media (min-width: 768px) {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 
 body {
+  padding: 2vw;
   color: $black;
   line-height: 1.45;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
-  @include font-serif;
+  @include font-sans;
 }
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.15;
-  font-weight: 300;
-  @include font-sans;
+  font-weight: 400;
 }
 
 h1 {
-  margin: 0 0 $spacing-05 0;
+  margin-top: 0;
   @include typescale-01;
 }
 
@@ -47,6 +47,33 @@ h5 {
 
 h6, small {
   @include typescale-06;
+}
+
+main {
+  > header,
+  > section {
+    margin-bottom: 25vh;
+    min-height: 100vh;
+  }
+
+  > section h2 span {
+    display: block;
+
+    &:first-child {
+      margin-bottom: $spacing-02;
+      font-weight: 900;
+      font-size: 0.35em;
+      text-transform: uppercase;
+      color: $prussian-blue;
+    }
+
+    &:last-child {
+      display: inline-block;
+      padding-top: $spacing-03;
+      border-top: 15px solid $buttercup-yellow;
+      @include font-serif;
+    }
+  }
 }
 
 p {
@@ -80,9 +107,8 @@ a {
 blockquote {
   margin-left: 0;
   padding-left: $spacing-03;
-  border-left: 2px solid $brick-red;
-  font-weight: 600;
-  @include font-sans;
+  border-left: 2px solid $prussian-blue;
+  @include font-serif;
 }
 
 hr {
