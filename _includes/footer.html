@@ -7,3 +7,12 @@
     © {{ 'now' | date: "%Y" }} Public Knowledge Project
   </p>
 </footer>
+
+<script>
+  var openMenu = document.querySelector("#tocToggler"),
+      nav =      document.querySelector(".nav");
+
+  openMenu.addEventListener('click', function() {
+    nav.classList.toggle("nav--active");
+  }, false);
+</script>

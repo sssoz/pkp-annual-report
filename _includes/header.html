@@ -5,18 +5,22 @@
     <strong>{{ site.year }}</strong>
   </h1>
 
-  <nav>
-    <ol>
-      <li>
-        <a href="#">START</a>
-      </li>
-      {% for section in site.sections %}
-      <li>
-        <a href="#{{ section.url | remove: '.html' | remove: '/sections/' }}">
-          {{ section.url | remove: '.html' | remove: '/sections/' | replace: '-', ' ' | slice: 3, section.url.size | upcase }}
-        </a>
-      </li>
-      {% endfor %}
-    </ol>
-  </nav>
+  <div class="header__toc">
+    <button id="tocToggler" class="button button--cta">Contents</button>
+
+    <nav class="nav">
+      <ol>
+        <li>
+          <a href="#">START</a>
+        </li>
+        {% for section in site.sections %}
+        <li>
+          <a href="#{{ section.url | remove: '.html' | remove: '/sections/' }}">
+            {{ section.url | remove: '.html' | remove: '/sections/' | replace: '-', ' ' | slice: 3, section.url.size | upcase }}
+          </a>
+        </li>
+        {% endfor %}
+      </ol>
+    </nav>
+  </div>
 </header>
