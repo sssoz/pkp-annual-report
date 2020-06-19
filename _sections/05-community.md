@@ -1,7 +1,7 @@
 ---
 heading: Community
 subheading: Community makes us open.
-intro: "How does the world’s most widely used free and open source journal publishing platform remain open? The answer is easy: you. Behind PKP is a vibrant, passionate, and international community of contributors who help to make our software better, together."
+intro: "How does the world’s most widely used free and open source journal publishing platform remain open? The answer is easy: <strong>you</strong>. Behind PKP is a vibrant, passionate, and international community of contributors who help to make our software better, together."
 ---
 
 ### [Some heading here]
@@ -11,7 +11,7 @@ intro: "How does the world’s most widely used free and open source journal pub
 
 ### You publish open.
 
-[intro]
+{% include placeholder-short.html %}
 
 #### [PKP 2019]
 
@@ -32,7 +32,7 @@ intro: "How does the world’s most widely used free and open source journal pub
 
 ### You support open.
 
-[intro]
+{% include placeholder-short.html %}
 
 #### [Contributors]
 
@@ -50,7 +50,7 @@ intro: "How does the world’s most widely used free and open source journal pub
 
 ### You sustain open.
 
-[intro]
+{% include placeholder-short.html %}
 
 #### [SCOSS]
 
@@ -62,14 +62,8 @@ intro: "How does the world’s most widely used free and open source journal pub
 
 ### [Why do you support PKP?]
 
-#### **University of Toronto**
+> <cite>**University of Toronto**</cite> <br/>{% include placeholder.html %}
 
-> {% include placeholder.html %}
+> <cite>**Ubiquity**</cite> <br/>{% include placeholder.html %}
 
-#### **Ubiquity**
-
-> {% include placeholder.html %}
-
-#### **SciELO**
-
-> {% include placeholder.html %}
+> <cite>**SciELO**</cite> <br/> {% include placeholder.html %}

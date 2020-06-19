@@ -25,7 +25,7 @@ layout: compress
             <span class="section__heading">{{ section.heading }}</span>{% if section.subheading %}<span class="sr-only">: </span><span class="section__subheading">{{ section.subheading }}</span>{% endif %}
           </h2>
 
-          {% if section.intro and section_cycle == 'odd' %}
+          {% if section.intro and section_cycle == 'even' %}
           <div class="intro">
             <div class="intro__content">
               <div>
@@ -39,7 +39,7 @@ layout: compress
               </div>
             </div>
           </div>
-          {% elsif section.intro and section_cycle == 'even' %}
+          {% elsif section.intro and section_cycle == 'odd' %}
           <div class="intro">
             <div class="intro__figure intro__figure--left">
               <div>
