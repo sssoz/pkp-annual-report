@@ -7,5 +7,6 @@ a {
   &:focus,
   &:active {
     text-decoration: none;
+    cursor: url("data:image/svg+xml,%3Csvg width='40' height='27' viewBox='0 0 40 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 8.14306H20.3822V18.3341H0V8.14306Z' fill='%23992932'/%3E%3Cpath d='M40 13.2386L19.9363 26.4772L19.9363 0L40 13.2386Z' fill='%23992932'/%3E%3C/svg%3E%0A"), pointer;
   }
 }
