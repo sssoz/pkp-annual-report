@@ -27,11 +27,6 @@
     font-weight: 900;
     @include font-serif;
     @include typescale-01;
-
-    + p {
-      padding: $spacing-04;
-      background-color: $athens-blue;
-    }
   }
 
   #you-publish-open {

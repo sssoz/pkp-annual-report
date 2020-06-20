@@ -1,0 +1,13 @@
+.colour-bg {
+  position: relative;
+  z-index: 2;
+  padding: $spacing-04;
+  background-color: $athens-blue;
+
+
+  &:before {
+    position: absolute;
+    z-index: -1; // Modify stacking order
+    @include svg-bg('../img/grid-red.svg', 75vh, 100%);
+  }
+}

@@ -13,6 +13,7 @@ intro: "How does the world’s most widely used free and open source journal pub
 
 ### You publish <span class="text-red">open<span class="text-red--large">.</span></span>
 
+{:.colour-bg}
 {% include placeholder-short.html %}
 
 #### [PKP 2019]
@@ -34,6 +35,7 @@ intro: "How does the world’s most widely used free and open source journal pub
 
 ### You support <span class="text-red">open<span class="text-red--large">.</span></span>
 
+{:.colour-bg}
 {% include placeholder-short.html %}
 
 #### [Contributors]
@@ -52,6 +54,7 @@ intro: "How does the world’s most widely used free and open source journal pub
 
 ### You sustain <span class="text-red">open<span class="text-red--large">.</span></span>
 
+{:.colour-bg}
 {% include placeholder-short.html %}
 
 #### [SCOSS]
