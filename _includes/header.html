@@ -23,4 +23,18 @@
       </ol>
     </nav>
   </div> -->
+  <nav class="nav nav--active">
+    <ol>
+      <li>
+        <a href="#">START</a>
+      </li>
+      {% for section in site.sections %}
+      <li>
+        <a href="#{{ section.url | remove: '.html' | remove: '/sections/' }}">
+          {{ section.url | remove: '.html' | remove: '/sections/' | replace: '-', ' ' | slice: 3, section.url.size | upcase }}
+        </a>
+      </li>
+      {% endfor %}
+    </ol>
+  </nav>
 </header>

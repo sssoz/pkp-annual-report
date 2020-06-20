@@ -4,10 +4,10 @@
 
 .nav--active {
   display: block;
-  position: fixed;
+  // position: fixed;
   right: $gutter;
   bottom: $gutter;
-  padding: $spacing-03;
+  // padding: $spacing-03;
   align-self: flex-end;
   background-color: $prussian-blue;
   text-align: right;
