@@ -6,6 +6,7 @@ intro: "How does the world’s most widely used free and open source journal pub
 
 ### [Some heading here]
 
+{:.blockquote--patterned}
 > {% include placeholder.html %} <cite>&ndash; **Allan Bell** <br/>[title, institution]</cite>
 
 ---
