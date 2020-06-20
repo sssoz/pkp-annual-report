@@ -14,7 +14,7 @@
     left: 0;
     overflow-x: hidden;
     background-position: center;
-    @include svg-bg($grid, 85vh, 100%);
+    @include svg-bg('../img/grid.svg', 85vh, 100%);
   }
 
   > div {
