@@ -4,12 +4,16 @@ table {
   @include font-sans;
 
   th, td {
-    padding: $spacing-04 0;
+    padding: $spacing-04 $spacing-04 $spacing-04 0;
 
+    // Specific to #financials section
     &:nth-child(2),
     &:nth-child(3) {
-      padding-right: 0;
       text-align: right;
+    }
+
+    &:nth-child(3) {
+      padding-right: 0;
     }
   }
 
