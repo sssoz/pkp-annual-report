@@ -18,8 +18,12 @@ highlighted: true
 
 ### [stats]
 
-Forum
-
-Docs Hub
-
-PKP School 
+<article class="stats">
+  {% for stat in site.data.community.services %}
+  <div class="stat">
+    <h4>{{ stat.service }}</h4>
+    <span class="stat__value">{{ stat.value }}</span>
+    <span class="stat__label">{{ stat.label }}</span>
+  </div>
+  {% endfor %}
+</article>

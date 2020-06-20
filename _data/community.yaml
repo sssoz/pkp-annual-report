@@ -1,0 +1,26 @@
+ps_clients:
+- value: 100%
+  label: "of PKP’s operational revenue comes from PKP Publishing Services"
+  description: "By choosing OJS and hosting with PKP, our clients are directly supporting and sustaining open infrastructure."
+
+- value: 999
+  label: new clients
+
+- value: 999
+  label: journals published with OJS
+
+- value: $999
+  label: raised
+
+services:
+- service: Forum
+  label: Lorem ipsum
+  value: 999
+
+- service: Docs Hub
+  label: Lorem ipsum
+  value: 999
+
+- service: PKP School
+  label: Lorem ipsum
+  value: 999

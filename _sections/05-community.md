@@ -26,10 +26,23 @@ intro: "How does the world’s most widely used free and open source journal pub
 
 #### [PS Clients]
 
-- X% of PKP’s operational revenue comes from PKP Publishing Services. By choosing OJS and hosting with PKP, our clients are directly supporting and sustaining open infrastructure.  
-- X new clients
-- X journals published with OJS
-- X dollars raised
+<article class="stats">
+{% for stat in site.data.community.ps_clients limit:1 %}
+<div class="stat">
+  <span class="stat__value">{{ stat.value }}</span>
+  <span class="stat__label">{{ stat.label }}</span>
+</div>
+{% endfor %}
+</article>
+
+<article class="stats">
+  {% for stat in site.data.community.ps_clients offset:1 %}
+  <div class="stat">
+    <span class="stat__value">{{ stat.value }}</span>
+    <span class="stat__label">{{ stat.label }}</span>
+  </div>
+  {% endfor %}
+</article>
 
 ---
 
