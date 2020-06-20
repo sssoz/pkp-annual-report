@@ -13,6 +13,7 @@
     position: absolute;
     left: 0;
     overflow-x: hidden;
+    background-position: center;
     @include svg-bg($grid, 85vh, 100%);
   }
 
