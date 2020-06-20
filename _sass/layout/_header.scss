@@ -2,6 +2,9 @@
   display: flex;
   flex-wrap: wrap;
   padding: $gutter;
+  margin-right: $gutter-negative;
+  margin-left: $gutter-negative;
+  border-top: $border solid $prussian-blue;
 
   strong {
     display: block;
@@ -11,10 +14,12 @@
 
   &:before {
     position: absolute;
+    top: $border;
     left: 0;
     overflow-x: hidden;
     background-position: center;
-    @include svg-bg('../img/grid.svg', 85vh, 100%);
+    @include svg-bg('../img/rectangles-athensblue.svg', 85vh, 100%);
+    background-size: cover;
   }
 
   > div {

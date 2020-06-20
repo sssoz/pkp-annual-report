@@ -18,4 +18,8 @@ highlighted: true
 
 ### [stats]
 
-[Forum, Docs Hub, and PKP School stats]
+Forum
+
+Docs Hub
+
+PKP School 

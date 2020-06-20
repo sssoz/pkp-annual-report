@@ -4,7 +4,15 @@
   height: $border-triple;
   max-width: 100%;
   width: auto;
+}
 
+.header .logo {
+  path {
+    fill: $black;
+  }
+}
+
+.footer .logo {
   path {
     fill: $white;
   }
