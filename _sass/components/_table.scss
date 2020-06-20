@@ -1,7 +1,6 @@
 table {
-  margin: 0 auto;
-  width: 50%;
   border-spacing: 0;
+  width: 100%;
   @include font-sans;
 
   th, td {
@@ -33,5 +32,9 @@ table {
     tr:last-child td {
       border: 0;
     }
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 66.666667%;
   }
 }
