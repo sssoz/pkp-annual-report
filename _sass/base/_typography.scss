@@ -72,9 +72,7 @@ ul, ol {
 
 figcaption {
   padding: $spacing-02;
-  margin-left: 50%;
   max-width: 50%;
-  text-align: right;
   color: $coal;
   @include typescale-06;
 }

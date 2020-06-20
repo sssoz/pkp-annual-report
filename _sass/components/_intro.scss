@@ -59,6 +59,12 @@
         margin-top: 0;
         margin-right: $gutter-negative;
         margin-bottom: -$spacing-05;
+
+
+        figcaption {
+          margin-left: 50%;
+          text-align: right;
+        }
       }
     }
   }
