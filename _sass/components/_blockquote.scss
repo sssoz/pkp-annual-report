@@ -32,6 +32,19 @@ blockquote {
     margin-top: $spacing-04;
   }
 
+  p {
+    z-index: 1;
+
+    &:before {
+      position: absolute;
+      margin-top: -35vh;
+      z-index: -1; // Modify stacking order
+      right: 0;
+      background-position: center;
+      @include svg-bg('../img/grid-yellow.svg', 100%, 100%);
+    }
+  }
+
   @media screen and (min-width: 1024px) {
     width: 50%;
   }

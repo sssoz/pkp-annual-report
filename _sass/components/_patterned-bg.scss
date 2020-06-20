@@ -5,7 +5,6 @@
     margin-top: -35vh;
     z-index: -1; // Modify stacking order
     right: 0;
-    overflow-x: hidden;
     @include svg-bg('../img/ladders.svg', 75vh, 100%);
   }
 }
