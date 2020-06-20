@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/818c6390-a0eb-448f-8c37-9bb67e2699d5/deploy-status)](https://app.netlify.com/sites/stupefied-aryabhata-df5953/deploys)
+
 # PKP Annual Report: 2019
 
 A static one-pager for the Public Knowledge Project’s (PKP) annual report built with Jekyll.
