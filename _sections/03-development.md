@@ -6,11 +6,13 @@ intro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada
 
 ### [Open Preprint Systems]
 
-{% include placeholder-long.html %}
+{% include placeholder.html %}
+
+{:.patterned-bg}
+{% include placeholder.html %}
 
 ### [OJS/OMP 3.2]
 
-{:.patterned-bg}
 {% include placeholder.html %}
 
 
