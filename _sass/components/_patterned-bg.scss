@@ -10,8 +10,6 @@
 }
 
 .section > p {
-  position: relative;
-  z-index: 1;
 
   &:nth-of-type(even) {
     // Displayed on the left
