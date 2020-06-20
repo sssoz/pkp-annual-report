@@ -1,7 +1,5 @@
 @media screen and (min-width: 1024px) {
   .patterned-bg {
-    position: relative;
-    z-index: 1;
 
     &:before {
       position: absolute;
@@ -14,6 +12,9 @@
   }
 
   .section > p {
+    position: relative;
+    z-index: 1;
+    
     &:nth-of-type(even) {
       // Displayed on the left
       &.patterned-bg:before {
