@@ -10,7 +10,7 @@ intro: "How does the world’s most widely used free and open source journal pub
 
 ---
 
-### You publish open
+### You publish <span class="text-red">open</span>
 
 {% include placeholder-short.html %}
 
@@ -31,7 +31,7 @@ intro: "How does the world’s most widely used free and open source journal pub
 
 ---
 
-### You support open
+### You support <span class="text-red">open</span>
 
 {% include placeholder-short.html %}
 
@@ -49,7 +49,7 @@ intro: "How does the world’s most widely used free and open source journal pub
 
 ---
 
-### You sustain open
+### You sustain <span class="text-red">open</span>
 
 {% include placeholder-short.html %}
 

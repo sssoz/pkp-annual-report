@@ -1,5 +1,5 @@
 blockquote {
-  margin: 0 0 $spacing-06 0;
+  margin: $spacing-05 0 $spacing-06 0;
   color: $prussian-blue;
   @include font-serif;
 
@@ -15,9 +15,13 @@ blockquote {
   &:after {
     display: block;
     content: '';
-    height: $border;
+    height: $border-half;
     width: $border-triple;
     background-color: $prussian-blue;
+
+    @media screen and (min-width: 1024px) {
+      height: $border;
+    }
   }
 
   &:before {
@@ -52,14 +56,16 @@ blockquote {
   }
 }
 
-.blockquote--right {
-  margin-left: 50%;
-  text-align: right;
+@media screen and (min-width: 1024px) {
+  .blockquote--right {
+    text-align: right;
+    margin-left: 50%;
 
-  &:before,
-  &:after {
-    margin-right: 0;
-    margin-left: auto;
+    &:before,
+    &:after {
+      margin-right: 0;
+      margin-left: auto;
+    }
   }
 }
 
