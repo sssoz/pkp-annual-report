@@ -8,6 +8,7 @@
   &:before {
     position: absolute;
     z-index: -1; // Modify stacking order
-    @include svg-bg('../img/grid-red.svg', 75vh, 100%);
+    max-width: 90%;
+    @include svg-bg('../img/grid-red.svg', 75vh, 70%);
   }
 }
