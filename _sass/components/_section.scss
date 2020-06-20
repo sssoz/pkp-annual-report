@@ -13,8 +13,11 @@
     }
   }
 
-  @media screen and (min-width: 1024px) {
-    > p {
+  p {
+    position: relative;
+    z-index: 2;
+
+    @media screen and (min-width: 1024px) {
       margin-bottom: $spacing-05;
       width: 66.666667%;
       @include typescale-05;
