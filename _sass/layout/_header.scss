@@ -17,6 +17,8 @@
   }
 
   > div {
+    position: relative;
+    z-index: 1;
 
     &:first-child {
       width: 50%;
