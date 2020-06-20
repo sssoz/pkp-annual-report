@@ -1,6 +1,6 @@
 ---
 heading: Outlook
-subheading: The future is open
+subheading: The future is open<span class="text-red text-red--large">.</span>
 intro: "In order to continue our research, development and community support, we need your help. You can support PKP financially as a sustainer and/or through contributions of time - each and every bit counts."
 highlighted: true
 ---

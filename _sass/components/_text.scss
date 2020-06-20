@@ -1,0 +1,8 @@
+.text-red {
+  color: $brick-red;
+
+  &--large {
+    line-height: 0;
+    @include typescale-02;
+  }
+}
