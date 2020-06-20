@@ -23,8 +23,10 @@
   #you-publish-open,
   #you-support-open,
   #you-sustain-open {
+    margin-top: -$spacing-04;
     font-weight: 900;
     @include font-serif;
+    @include typescale-01;
 
     + p {
       padding: $spacing-04;
