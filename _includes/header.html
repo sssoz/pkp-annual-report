@@ -1,9 +1,36 @@
 <header class="section section--inverted header">
-  <h1>
-    {{ site.author.name }} <br/>
-    {{ site.title }} <br/>
-    <strong>{{ site.year }}</strong>
-  </h1>
+  <div>
+    <h1>
+      {{ site.author.name }} <br/>
+      {{ site.title }} <br/>
+      <strong>{{ site.year }}</strong>
+    </h1>
+  </div>
+
+  <div>
+    <nav class="nav nav--active">
+      <ol>
+        {% for section in site.sections %}
+        <li>
+          <a href="#{{ section.url | remove: '.html' | remove: '/sections/' | slice: 3, section.url.size }}">
+            {{ section.url | remove: '.html' | remove: '/sections/' | replace: '-', ' ' | slice: 3, section.url.size | upcase }}
+          </a>
+        </li>
+        {% endfor %}
+      </ol>
+    </nav>
+  </div>
+
+  <div>
+    <a href="https://pkp.sfu.ca/" target="_blank" rel="noopener">{% include svg/logo.svg %}</a>
+  </div>
+
+  <div>
+    <p class="tagline">
+      <strong>Making <br/>knowledge <br/>public.</strong>
+    </p>
+  </div>
+
 
   <!-- <div class="header__toc">
     <button id="tocToggler" class="button button--cta">Contents</button>
@@ -23,18 +50,5 @@
       </ol>
     </nav>
   </div> -->
-  <nav class="nav nav--active">
-    <ol>
-      <li>
-        <a href="#">START</a>
-      </li>
-      {% for section in site.sections %}
-      <li>
-        <a href="#{{ section.url | remove: '.html' | remove: '/sections/' }}">
-          {{ section.url | remove: '.html' | remove: '/sections/' | replace: '-', ' ' | slice: 3, section.url.size | upcase }}
-        </a>
-      </li>
-      {% endfor %}
-    </ol>
-  </nav>
+
 </header>

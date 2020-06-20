@@ -1,0 +1,11 @@
+.logo {
+  display: block;
+  align-self: flex-start;
+  height: $border-triple;
+  max-width: 100%;
+  width: auto;
+
+  path {
+    fill: $white;
+  }
+}

@@ -1,6 +1,12 @@
 .footer {
+  display: flex;
+  flex-direction: row;
   @extend .section--inverted;
   margin: $gutter-negative;
   padding-bottom: $gutter;
   @include typescale-06;
+
+  > p {
+    flex-grow: 1;
+  }
 }
