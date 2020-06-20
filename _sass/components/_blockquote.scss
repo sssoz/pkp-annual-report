@@ -86,6 +86,8 @@ blockquote {
 
     p:before {
       background-position: right;
+      transform: scaleX(-1);
+      transform: rotate(180deg);
     }
   }
 }
