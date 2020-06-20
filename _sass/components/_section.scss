@@ -7,21 +7,22 @@
     margin: 0 0 $spacing-04 0;
   }
 
-
-  > p {
-    margin-bottom: $spacing-05;
-    width: 66.666667%;
-    @include typescale-05;
-
-    &:nth-of-type(even) {
-      text-align: right;
-      margin-left: 33.33333%;
-    }
-  }
-
   h3, h4, p {
     + blockquote {
       margin-top: $spacing-05;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    > p {
+      margin-bottom: $spacing-05;
+      width: 66.666667%;
+      @include typescale-05;
+
+      &:nth-of-type(even) {
+        text-align: right;
+        margin-left: 33.33333%;
+      }
     }
   }
 }
@@ -29,8 +30,10 @@
 .section__header {
   margin-bottom: $spacing-05;
 
-  + h3 {
-    margin-top: $spacing-06;
+  @media screen and (min-width: 1024px) {
+    + h3 {
+      margin-top: $spacing-06;
+    }
   }
 }
 

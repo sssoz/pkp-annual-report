@@ -1,47 +1,62 @@
 .intro {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-content: space-between;
   margin-bottom: $spacing-05;
-
-  .intro__content,
-  .intro__figure {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-  }
 
   .intro__content {
     @include typescale-04;
   }
 
   .intro__figure {
+    margin-top: $spacing-05;
+    margin-bottom: $spacing-03;
+    margin-left: -3vw;
+    margin-right: -3vw;
+    max-height: 35vh;
+    overflow-y: hidden;
 
-    > div {
-      flex-basis: 0px;
-      flex-grow: 1;
-      overflow: hidden;
+    &:before {
+      display: block;
+      content: ' ';
+      height: $border;
+      width: 100%;
+      background: $brick-red;
+    }
+  }
 
-      &:before {
-        display: block;
-        content: ' ';
-        height: $border;
-        width: 100%;
-        background: $brick-red;
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: space-between;
+
+    .intro__content,
+    .intro__figure {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+    }
+
+    .intro__figure {
+      margin: 0;
+      margin-bottom: $spacing-04;
+
+      > div {
+        flex-basis: 0px;
+        flex-grow: 1;
+        overflow: hidden;
       }
-    }
 
-    &--left {
-      margin-bottom: -$spacing-05;
-      margin-left: -3vw;
-    }
+      &--left {
+        order: -1;
+        margin-bottom: -$spacing-05;
+        margin-left: -3vw;
+      }
 
-    &--right {
-      margin-top: 0;
-      margin-right: -3vw;
-      margin-bottom: -$spacing-05;
+      &--right {
+        margin-top: 0;
+        margin-right: -3vw;
+        margin-bottom: -$spacing-05;
+      }
     }
   }
 }

@@ -14,9 +14,9 @@
 
   &:before {
     position: absolute;
-    left: -5%;
+    left: 0;
     overflow-x: hidden;
-    @include svg-bg($grid, 100%, 100%);
+    @include svg-bg($grid, 85vh, 100%);
   }
 }
 

@@ -12,9 +12,11 @@
     text-align: left;
     margin-left: 0;
 
-    + p {
-      text-align: right;
-      margin-left: 33.33333%;
+    @media screen and (min-width: 1024px) {
+      + p {
+        text-align: right;
+        margin-left: 33.33333%;
+      }
     }
   }
 
@@ -36,6 +38,6 @@
   }
 
   #you-publish-open {
-    
+
   }
 }

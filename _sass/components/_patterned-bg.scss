@@ -1,31 +1,33 @@
-.patterned-bg {
-  position: relative;
-  z-index: 1;
+@media screen and (min-width: 1024px) {
+  .patterned-bg {
+    position: relative;
+    z-index: 1;
 
-  &:before {
-    position: absolute;
-    margin-top: -20vh;
-    z-index: -1;
-    right: 0;
-    overflow-x: hidden;
-    @include svg-bg($ladders, 75vh, 100%);
-  }
-}
-
-.section > p {
-  &:nth-of-type(even) {
-    // Displayed on the left
-    &.patterned-bg:before {
-      left: -50%;
-      transform: scaleY(-1);
+    &:before {
+      position: absolute;
+      margin-top: -20vh;
+      z-index: -1; // Modify stacking order
+      right: 0;
+      overflow-x: hidden;
+      @include svg-bg($ladders, 75vh, 100%);
     }
   }
 
-  &:nth-of-type(odd) {
-    // Displayed on the right
-    &.patterned-bg:before {
-      right: -50%;
-      transform: rotate(180deg);
+  .section > p {
+    &:nth-of-type(even) {
+      // Displayed on the left
+      &.patterned-bg:before {
+        left: -50%;
+        transform: scaleY(-1);
+      }
+    }
+
+    &:nth-of-type(odd) {
+      // Displayed on the right
+      &.patterned-bg:before {
+        right: -50%;
+        transform: rotate(180deg);
+      }
     }
   }
 }

@@ -1,6 +1,5 @@
 blockquote {
   margin: 0 0 $spacing-06 0;
-  width: 50%;
   color: $prussian-blue;
   @include font-serif;
 
@@ -27,6 +26,10 @@ blockquote {
 
   &:after {
     margin-top: $spacing-04;
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 50%;
   }
 }
 
