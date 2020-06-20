@@ -1,3 +1,5 @@
 .tagline {
   text-align: right;
+  line-height: 1.15;
+  @include typescale-05;
 }
