@@ -1,5 +1,8 @@
 /* Utilities mixins & classes */
 
+$gutter:            5vw;
+$gutter-negative:   -5vw;
+
 @mixin unstyled-list {
   padding-left: 0;
   margin: 0;

@@ -5,8 +5,8 @@
 .nav--active {
   display: block;
   position: fixed;
-  right: 3vw;
-  bottom: 3vw;
+  right: $gutter;
+  bottom: $gutter;
   padding: $spacing-03;
   align-self: flex-end;
   background-color: $prussian-blue;

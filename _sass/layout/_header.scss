@@ -4,7 +4,7 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   align-content: space-between;
-  padding: 3vw;
+  padding: $gutter;
 
   strong {
     display: block;
@@ -26,8 +26,8 @@
 
   button {
     position: fixed;
-    right: 3vw;
-    top: 3vw;
+    right: $gutter;
+    top: $gutter;
     align-self: flex-start;
     color: $athens-blue;
   }

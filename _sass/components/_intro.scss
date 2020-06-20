@@ -8,8 +8,8 @@
   .intro__figure {
     margin-top: $spacing-05;
     margin-bottom: $spacing-03;
-    margin-left: -3vw;
-    margin-right: -3vw;
+    margin-left: $gutter-negative;
+    margin-right: $gutter-negative;
     max-height: 35vh;
     overflow-y: hidden;
 
@@ -49,12 +49,12 @@
       &--left {
         order: -1;
         margin-bottom: -$spacing-05;
-        margin-left: -3vw;
+        margin-left: $gutter-negative;
       }
 
       &--right {
         margin-top: 0;
-        margin-right: -3vw;
+        margin-right: $gutter-negative;
         margin-bottom: -$spacing-05;
       }
     }
