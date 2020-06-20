@@ -16,16 +16,22 @@
   &:nth-of-type(even) {
     // Displayed on the left
     &.patterned-bg:before {
-      left: -50%;
       transform: scaleY(-1);
+
+      @media screen and (min-width: 1024px) {
+        left: -50%;
+      }
     }
   }
 
   &:nth-of-type(odd) {
     // Displayed on the right
     &.patterned-bg:before {
-      right: -50%;
       transform: rotate(180deg);
+
+      @media screen and (min-width: 1024px) {
+        right: -50%;
+      }
     }
   }
 }
