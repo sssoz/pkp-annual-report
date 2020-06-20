@@ -83,6 +83,10 @@ blockquote {
       margin-right: 0;
       margin-left: auto;
     }
+
+    p:before {
+      background-position: right;
+    }
   }
 }
 

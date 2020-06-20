@@ -67,8 +67,10 @@ intro: "How does the world’s most widely used free and open source journal pub
 
 > <cite>**University of Toronto**</cite> <br/>{% include placeholder.html %}
 
+{:.blockquote--centered}
 > <cite>**Ubiquity**</cite> <br/>{% include placeholder.html %}
 
+{:.blockquote--right}
 > <cite>**SciELO**</cite> <br/> {% include placeholder.html %}
 
 
