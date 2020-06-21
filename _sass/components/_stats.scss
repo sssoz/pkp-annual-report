@@ -26,7 +26,11 @@
   display: inline-block;
   border-bottom: $border solid $buttercup-yellow;
   font-weight: 900;
-  @include typescale-01;
+  @include typescale-03;
+
+  @media (min-width: 1024px) {
+    @include typescale-01;
+  }
 }
 
 .stat__label {
