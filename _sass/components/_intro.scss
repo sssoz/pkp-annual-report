@@ -68,4 +68,22 @@
       }
     }
   }
+
+  &--two-thirds {
+
+    h3 {
+      margin-top: -$spacing-04;
+      font-weight: 900;
+      @include font-serif;
+      @include typescale-01;
+    }
+
+    .intro__content {
+      width: 66.6666%;
+    }
+
+    .intro__figure:before {
+      display: none;
+    }
+  }
 }
