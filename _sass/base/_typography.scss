@@ -32,22 +32,26 @@ h1 {
 }
 
 h2 {
-  @include typescale-02;
+  @include typescale-01;
 }
 
 h3 {
-  @include typescale-03;
+  @include typescale-02;
 }
 
 h4 {
-  @include typescale-04;
+  @include typescale-03;
 }
 
 h5 {
   @include typescale-05;
 }
 
-h6, small {
+h6 {
+  @include typescale-05;
+}
+
+small {
   @include typescale-06;
 }
 
