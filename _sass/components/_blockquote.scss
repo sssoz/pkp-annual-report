@@ -93,14 +93,3 @@ blockquote {
     }
   }
 }
-
-.blockquotes {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-content: space-between;
-
-  blockquote {
-    width: 32%;
-  }
-}

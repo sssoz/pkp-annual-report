@@ -25,6 +25,7 @@ inverted: true
 
 Our thanks to all those who contributed to our project in 2019 including translators, writers, sprinters, developers, testers, and members of the following:
 
+{:.list .list--four-col}
 - Advisory Committee
 - Technical Committee
 - Documentation Interest Group
@@ -32,6 +33,7 @@ Our thanks to all those who contributed to our project in 2019 including transla
 
 With special thanks to the following organizations for their support and contributions towards PKP events:
 
+{:.list .list--three-col}
 - Universitat Autònoma de Barcelona (PKP 2019 Conference + BCN Sprint)
 - University of Pittsburgh (PGH Sprint)
 - Simon Fraser University (SFU Sprint)

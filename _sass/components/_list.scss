@@ -1,0 +1,47 @@
+.list {
+  @include unstyled-list;
+
+  li {
+    flex-grow: 1;
+    margin-top: $spacing-04;
+    margin-right: $gutter;
+    margin-bottom: $spacing-04;
+    line-height: 1.2;
+    @include typescale-03;
+    @include font-serif;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &--numbered li {
+    counter-increment: item;
+
+    &:before {
+      display: block;
+      margin-bottom: $spacing-03;
+      content: "0"counter(item)" ";
+      border-bottom: $border solid $brick-red;
+      width: $spacing-06;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    display: flex;
+
+    &--three-col li {
+      width: 33.33333%;
+    }
+
+    &--four-col li {
+      width: 25%;
+    }
+  }
+}
+
+.section--inverted {
+  .list li {
+    border-color: $athens-blue;
+  }
+}
