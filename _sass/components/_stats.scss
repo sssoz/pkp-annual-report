@@ -1,6 +1,7 @@
 .stats {
   display: flex;
   margin-bottom: $spacing-04;
+  @include unstyled-list;
 
   h4 {
     margin-bottom: 0;

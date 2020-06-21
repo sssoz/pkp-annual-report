@@ -26,23 +26,23 @@ intro: "How does the world’s most widely used free and open source journal pub
 
 #### [PS Clients]
 
-<article class="stats">
-{% for stat in site.data.community.ps_clients limit:1 %}
-<div class="stat">
-  <span class="stat__value">{{ stat.value }}</span>
-  <span class="stat__label">{{ stat.label }}</span>
-</div>
-{% endfor %}
-</article>
-
-<article class="stats">
-  {% for stat in site.data.community.ps_clients offset:1 %}
-  <div class="stat">
+<ul class="stats">
+  {% for stat in site.data.community.ps_clients limit:1 %}
+  <li class="stat">
     <span class="stat__value">{{ stat.value }}</span>
     <span class="stat__label">{{ stat.label }}</span>
-  </div>
+  </li>
   {% endfor %}
-</article>
+</ul>
+
+<ul class="stats">
+  {% for stat in site.data.community.ps_clients offset:1 %}
+  <li class="stat">
+    <span class="stat__value">{{ stat.value }}</span>
+    <span class="stat__label">{{ stat.label }}</span>
+  </li>
+  {% endfor %}
+</ul>
 
 ---
 
