@@ -7,7 +7,7 @@ intro: "How does the world’s most widely used free and open source journal pub
 ### [Some heading here]
 
 {:.blockquote--patterned}
-> {% include placeholder.html %} <cite>&ndash; **Allan Bell** <br/>[title, institution]</cite>
+> “{% include placeholder.html %}” <cite>&ndash; **Allan Bell** <br/>[title, institution]</cite>
 
 ---
 
@@ -82,10 +82,10 @@ intro: "How does the world’s most widely used free and open source journal pub
 
 ### [Why do you support PKP?]
 
-> <cite>**University of Toronto**</cite> <br/>{% include placeholder.html %}
+> <cite>**University of Toronto**</cite> <br/>“{% include placeholder.html %}”
 
 {:.blockquote--centered}
-> <cite>**Ubiquity**</cite> <br/>{% include placeholder.html %}
+> <cite>**Ubiquity**</cite> <br/>“{% include placeholder.html %}”
 
 {:.blockquote--right}
-> <cite>**SciELO**</cite> <br/> {% include placeholder.html %}
+> <cite>**SciELO**</cite> <br/>“{% include placeholder.html %}”

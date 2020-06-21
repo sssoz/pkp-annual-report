@@ -15,4 +15,4 @@ For 2020-2021, our focus is on the following three key priorities:
 3. User needs, accessibility, and usability.
 
 {:.blockquote--right .blockquote--patterned}
-> {% include placeholder.html %} <cite>&ndash; **Joy Johnson**<br/> Vice President, Research and International, Simon Fraser University</cite>
+> “{% include placeholder.html %}” <cite>&ndash; **Joy Johnson**<br/> Vice President, Research and International, Simon Fraser University</cite>
