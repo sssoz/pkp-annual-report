@@ -1,6 +1,7 @@
 table {
   border-spacing: 0;
   width: 100%;
+  font-size: smaller;
   @include font-sans;
 
   th, td {
