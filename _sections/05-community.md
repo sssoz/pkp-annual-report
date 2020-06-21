@@ -11,10 +11,14 @@ intro: "How does the world’s most widely used free and open source journal pub
 
 ---
 
+{% assign data = site.data.community.you %}
+
 ### You publish <span class="text-red">open<span class="text-red--large">.</span></span>
 
-{:.colour-bg}
-{% include placeholder-short.html %}
+{% assign content = data[0].content %}
+{% assign img = data[0].img %}
+{% assign credit = data[0].credit %}
+{% include you.html content=content img=img credit=credit %}
 
 #### [PKP 2019]
 
@@ -48,8 +52,10 @@ intro: "How does the world’s most widely used free and open source journal pub
 
 ### You support <span class="text-red">open<span class="text-red--large">.</span></span>
 
-{:.colour-bg}
-{% include placeholder-short.html %}
+{% assign content = data[1].content %}
+{% assign img = data[1].img %}
+{% assign credit = data[1].credit %}
+{% include you.html content=content img=img credit=credit %}
 
 #### [Contributors]
 
@@ -67,8 +73,10 @@ intro: "How does the world’s most widely used free and open source journal pub
 
 ### You sustain <span class="text-red">open<span class="text-red--large">.</span></span>
 
-{:.colour-bg}
-{% include placeholder-short.html %}
+{% assign content = data[2].content %}
+{% assign img = data[2].img %}
+{% assign credit = data[2].credit %}
+{% include you.html content=content img=img credit=credit %}
 
 #### [SCOSS]
 

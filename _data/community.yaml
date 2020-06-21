@@ -24,3 +24,19 @@ services:
 - service: PKP School
   label: Lorem ipsum
   value: 999
+
+you:
+- id: publish
+  content:
+  img: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Marbled-Paper_Endless-Background_1200x1600px.jpg"
+  credit: "Encyclopaedia Britannica, 1842er edition; edited by Jaybear / <a href='https://creativecommons.org/licenses/by-sa/3.0' target='_blank' rel='noopener'>CC BY-SA</a>"
+
+- id: support
+  content:
+  img: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Marbled-Paper_Endless-Background_1200x1600px.jpg"
+  credit: "Encyclopaedia Britannica, 1842er edition; edited by Jaybear / <a href='https://creativecommons.org/licenses/by-sa/3.0' target='_blank' rel='noopener'>CC BY-SA</a>"
+
+- id: sustain
+  content:
+  img: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Marbled-Paper_Endless-Background_1200x1600px.jpg"
+  credit: "Encyclopaedia Britannica, 1842er edition; edited by Jaybear / <a href='https://creativecommons.org/licenses/by-sa/3.0' target='_blank' rel='noopener'>CC BY-SA</a>"

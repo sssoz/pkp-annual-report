@@ -10,6 +10,7 @@
     margin-bottom: $spacing-03;
     margin-left: $gutter-negative;
     margin-right: $gutter-negative;
+    max-height: 50vh;
     overflow-y: hidden;
 
     &:before {
@@ -78,12 +79,14 @@
       @include typescale-01;
     }
 
-    .intro__content {
-      width: 66.6666%;
-    }
-
     .intro__figure:before {
       display: none;
+    }
+
+    @media screen and (min-width: 1024px) {
+      .intro__content {
+        width: 66.6666%;
+      }
     }
   }
 }
