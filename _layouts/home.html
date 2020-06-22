@@ -22,7 +22,9 @@ layout: compress
         id="{{ section.url | remove: '.html' | remove: '/sections/' | slice: 3, section.url.size }}">
         <header class="section__header">
           <h2>
-            <span class="section__heading">{{ section.heading }}</span>{% if section.subheading %}<span class="sr-only">: </span><span class="section__subheading">{{ section.subheading }}</span>{% endif %}
+            <span class="section__heading">{{ section.heading }}
+            &bull;
+            <a href="https://github.com/sssoz/pkp-annual-report/edit/master/_sections/{{ section.url | replace: 'html', 'md' | remove: '/sections/' }}" target="_blank" rel="noopener">Edit this section</a></span>{% if section.subheading %}<span class="sr-only">: </span><span class="section__subheading">{{ section.subheading }}</span>{% endif %}
           </h2>
 
           {% if section.intro and section_cycle == 'even' %}
