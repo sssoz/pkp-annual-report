@@ -4,4 +4,31 @@
     margin: $spacing-05 0 $spacing-03 0;
     text-align: left;
   }
+
+  .org-logos {
+    margin-top: $spacing-05;
+    
+    svg {
+      height: 50px;
+    }
+
+    @media screen and (min-width: 1024px) {
+      display: flex;
+
+      .org-logo {
+        margin-right: $gutter;
+        width: 33.33333%;
+        max-width: 100%;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+
+      svg {
+        height: 100px;
+        width: auto;
+      }
+    }
+  }
 }

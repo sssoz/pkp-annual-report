@@ -1,47 +1,54 @@
 .list {
   @include unstyled-list;
 
-  li {
+  > li {
     flex-grow: 1;
     margin-top: $spacing-04;
     margin-right: $gutter;
     margin-bottom: $spacing-04;
+    padding-top: $spacing-03;
     line-height: 1.2;
-    @include typescale-03;
-    @include font-serif;
+    border-top: $border-third solid;
+    @include typescale-04;
 
     &:last-child {
       margin-right: 0;
     }
   }
 
+  ul {
+    @include unstyled-list;
+
+    li {
+      margin-top: $spacing-03;
+      font-size: 1em;
+      @include font-sans;
+    }
+  }
+
   &--numbered li {
+    border-top: 0;
     counter-increment: item;
 
     &:before {
       display: block;
       margin-bottom: $spacing-03;
+      padding-bottom: $spacing-02;
       content: "0"counter(item)" ";
-      border-bottom: $border solid $brick-red;
-      width: $spacing-06;
+      border-bottom: $border-third solid $brick-red;
+      width: $spacing-04;
     }
   }
 
   @media screen and (min-width: 1024px) {
     display: flex;
 
-    &--three-col li {
+    &--three-col > li {
       width: 33.33333%;
     }
 
-    &--four-col li {
+    &--four-col > li {
       width: 25%;
     }
-  }
-}
-
-.section--inverted {
-  .list li {
-    border-color: $athens-blue;
   }
 }
