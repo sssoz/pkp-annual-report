@@ -76,3 +76,7 @@ figcaption {
   color: $coal;
   @include typescale-06;
 }
+
+strong, b {
+  font-weight: 900;
+}
