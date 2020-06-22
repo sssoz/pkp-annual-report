@@ -32,14 +32,12 @@ intro: "How does the world’s most widely used free and open source journal pub
 
 <ul class="stats">
   {% for stat in site.data.community.ps_clients limit:1 %}
-  <li class="stat">
+  <li class="stat stat--featured">
     <span class="stat__value">{{ stat.value }}</span>
     <span class="stat__label">{{ stat.label }}</span>
+    <p>{{ stat.description }}</p>
   </li>
   {% endfor %}
-</ul>
-
-<ul class="stats">
   {% for stat in site.data.community.ps_clients offset:1 %}
   <li class="stat">
     <span class="stat__value">{{ stat.value }}</span>

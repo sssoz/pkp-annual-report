@@ -1,5 +1,6 @@
 .stats {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: $spacing-04;
   @include unstyled-list;
 
@@ -15,10 +16,21 @@
   .stat {
     margin-top: $spacing-03;
     margin-right: $gutter;
+    margin-bottom: $spacing-03;
     flex: 1;
 
     &:last-child {
       margin-right: 0;
+    }
+
+    &--featured {
+      flex: auto;
+      width: 100%;
+
+      p {
+        margin-top: $spacing-03;
+        width: 50%;
+      }
     }
   }
 }
