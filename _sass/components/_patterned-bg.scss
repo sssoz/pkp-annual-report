@@ -1,35 +1,18 @@
 .patterned-bg {
-
-  &:before {
-    position: absolute;
-    margin-top: -35vh;
-    z-index: -1; // Modify stacking order
-    right: 0;
-    @include svg-bg('../img/ladders.svg', 75vh, 100%);
-  }
+  @include svg-bg('../img/ladders.svg', 75vh, 100%);
 }
 
 .section > p {
 
   &:nth-of-type(even) {
-    // Displayed on the left
-    &.patterned-bg:before {
-      transform: scaleY(-1);
-
-      @media screen and (min-width: 1024px) {
-        left: -50%;
-      }
+    &.patterned-bg {
+      background-position: left;
     }
   }
 
   &:nth-of-type(odd) {
-    // Displayed on the right
-    &.patterned-bg:before {
-      transform: rotate(180deg);
-
-      @media screen and (min-width: 1024px) {
-        right: -50%;
-      }
+    &.patterned-bg {
+      background-position: right;
     }
   }
 }
