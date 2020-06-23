@@ -7,7 +7,6 @@ highlighted: true
 
 ### [Add heading here]
 
-{:.patterned-bg}
 For 2020-2021, our focus is on the following three key priorities:
 
 {:.list .list--three-col .list--numbered}
