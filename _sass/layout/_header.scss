@@ -6,6 +6,10 @@
   margin-left: $gutter-negative;
   border-top: $border solid $prussian-blue;
 
+  a {
+    display: inline-block;
+  }
+
   strong {
     display: block;
     margin-top: $spacing-03;
