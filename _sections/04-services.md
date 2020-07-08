@@ -12,7 +12,6 @@ Coalition Publica is focussed on three key activities: 1) developing a support p
 In 2019-2020, Coalition Publica’s national campaign was a great success: the annual objective to include 20 new journals was reached very quickly and a waiting list was established for 2021. The team also recognized the need for a holistic Digital Object Identifier (DOI) strategy, developing a Metadata Working Group in 2019 to achieve two main deliverables: 1) a best practices guide for OJS metadata for journals, and 2) a report to PKP and Érudit with technical recommendations to improve metadata quality in their respective systems.
 
 {:.patterned-bg}
-{% include placeholder.html %}
 
 ### Institutional Hosting
 
