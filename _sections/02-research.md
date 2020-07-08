@@ -13,11 +13,15 @@ In October 2019, Willinsky [was awarded a grant for $165,000 from the Arcadia Fu
 
 Willinsky has been consulting with legal scholars, copyright lawyers at university and public libraries, publisher representatives, and government officials to assess the feasibility and potential structure of such legal reforms. He is assembling relevant precedents, legal arguments, and operating mechanisms for initializing legal reform within his [latest book draft](https://docs.google.com/document/d/1bjulpetHpvOs1EcWtOGv0RCPgST0Y8AvooP97COOnbg/edit?usp=sharing), “Copyright’s Constitutional Violation.” As his work continues into 2020-2021, the hope is that these efforts will garner support for legislative change; change that begins in the U.S. and spreads from there, enabling greater public access to research and lasting educational benefits for students, professionals, and the interested public.
 
-### [Subscribe-to-Open]
+### Preprint Uptake and Use Project
 
 {:.patterned-bg}
-In 2017, PKP’s John Willinsky proposed the following idea in a blog post: What if we tapped into research libraries’ strong support for open access by asking them to subscribe to open access? Libraries would pay fees to journals that they were already subscribing to and in exchange, the journals would flip to open access. Working with Libraria, a collective of researchers based in the social sciences, John’s vision has now become a reality. In 2019, Libraria joined forces with Berghan Books to create a pilot project and on January 22, 2020, Berghan Open Anthro was launched: 281 libraries have subscribed, 13 titles are being flipped to open access, and there are no article processing charges (APC) or embargos in sight.
+In 2019, ScholCommLab visiting scholars Mario Malički and Janina Sarol (under the supervision of PKP Associate Director of Research, Juan Pablo Alperin) began analyzing preprint metadata to investigate preprint growth and uptake as part of a joint research initiative with ASAPBIo. Looking at data from several preprint servers, the team discovered (much to their dismay) that the metadata available was too unreliable to support their research. All was not lost, however, as their research revealed what not to do with preprint metadata. Shared early on with PKP developers, this project informed the development of our latest software, Open Preprint Systems (OPS), and resulted in four recommendations for improving preprint metadata.
 
-### [Publications]
+### Subscribe-to-Open
 
-[published in 2019-2020]
+In 2017, John Willinsky proposed the following idea: what if we tapped into research libraries’ strong support for open access by asking them to subscribe to open access? Libraries would pay fees to journals that they were already subscribing to and in exchange, the journals would flip to open access. Working with Libraria, a collective of researchers based in the social sciences, this idea is now a reality. In 2019, Libraria joined forces with Berghahn Books to create a pilot project and on January 22, 2020, Berghahn Open Anthro was launched. Berghahn is expanding the model in 2021, as is Annual Reviews, with other publishers giving it serious consideration with support from Knowledge Unlatched. 
+
+281 subscribed
+13 titles flipped to OA
+0 APC
