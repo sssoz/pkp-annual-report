@@ -1,7 +1,7 @@
 ---
 heading: Introduction
 subheading: Come in, we’re open<span class="text-red text-red--large">.</span>
-intro: "Lorem ipsum dolor sit amet, urna platea sodales. Dui purus, posuere in lobortis, auctor sit eget."
+intro: "Egestas turpis aut consectetuer elementum morbi urna ac urna nascetur nec eros pede posuere sit placerat quam natoque amet elit sagittis neque dis eros integer curabitur tincidunt felis donec fringilla ullamcorper placerat condimentum sodales elementum in proin vitae interdum dis in urna bibendum aliquet nam non neque nullam cras pretium."
 ---
 ### Our Story
 The Public Knowledge Project (PKP) was established in 1998 as a research project. Years before “open access” was coined, PKP was trying to solve the problem of cost as a barrier to creating and consuming scholarship online. Our team of scholars and students pursued this goal for nearly three years before, in 2001, Open Journal Systems (OJS) was born.
