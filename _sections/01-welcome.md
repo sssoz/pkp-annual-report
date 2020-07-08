@@ -1,5 +1,5 @@
 ---
-heading: Welcome
+heading: Introduction
 subheading: Come in, we’re open<span class="text-red text-red--large">.</span>
 intro: "Lorem ipsum dolor sit amet, urna platea sodales. Dui purus, posuere in lobortis, auctor sit eget."
 ---
