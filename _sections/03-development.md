@@ -6,11 +6,9 @@ intro: "For more than twenty years, PKP has been developing open infrastructure 
 
 ### Open Preprint Systems
 
-In 2018, PKP announced a working partnership with SciELO to build the open source software necessary to host preprint servers. The requirements were clear: they needed a preprint server that was fully operable with OJS and could meet the decentralized, multilingual, and multidisciplinary needs of their network. With specifications and seed funding from SciELO, along with a generous donation from a Stanford University donor, Open Preprint Systems (OPS) was developed and released in English, Spanish, and Portuguese on February 28, 2020 alongside OJS/OMP 3.2. 
-OPS joins Open Monograph Press (OMP) and OJS as applications built using the PKP Web Application Library (PKP-WAL). Like all PKP software, OPS can be easily installed with basic infrastructure, is portable, and uses a plugin architecture to enable customization. Those familiar with OJS and OMP will recognize built-in support for a wide array of features, including multilingualism. Because it shares many words with OJS, when released, OPS was also partially available in an additional 15 languages. 
+In 2018, PKP announced a working partnership with SciELO to build the open source software necessary to host preprint servers. The requirements were clear: they needed a preprint server that was fully operable with OJS and could meet the decentralized, multilingual, and multidisciplinary needs of their network. With specifications and seed funding from SciELO, along with a generous donation from a Stanford University donor, Open Preprint Systems (OPS) was developed and released in English, Spanish, and Portuguese on February 28, 2020 alongside OJS/OMP 3.2.
+OPS joins Open Monograph Press (OMP) and OJS as applications built using the PKP Web Application Library (PKP-WAL). Like all PKP software, OPS can be easily installed with basic infrastructure, is portable, and uses a plugin architecture to enable customization. Those familiar with OJS and OMP will recognize built-in support for a wide array of features, including multilingualism. Because it shares many words with OJS, when released, OPS was also partially available in an additional 15 languages.
 The rise of preprints represents another element in the broader move toward open science. It is still early days for OPS, but we look forward to seeing how, like OJS, this software will adapt and grow to meet the needs of scholars around the world.
-
-{:.patterned-bg}
 
 ### Web Accessibility Audit
 

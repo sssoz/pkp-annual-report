@@ -7,11 +7,9 @@ highlighted: true
 
 ### Coalition Publica
 
-Coalition Publica is a partnership between long-standing collaborators Érudit and PKP to establish a national infrastructure dedicated to the digital production and dissemination of research results in the Canadian humanities and social sciences (HSS). It is funded by two Canadian Foundation for Innovation grants: Major Science Initiative (2017-2022) and Cyberinfrastructure (2017-2020). 
+Coalition Publica is a partnership between long-standing collaborators Érudit and PKP to establish a national infrastructure dedicated to the digital production and dissemination of research results in the Canadian humanities and social sciences (HSS). It is funded by two Canadian Foundation for Innovation grants: Major Science Initiative (2017-2022) and Cyberinfrastructure (2017-2020).
 Coalition Publica is focussed on three key activities: 1) developing a support program for Canadian scholarly journals in the humanities and social sciences; (2) aligning Érudit and PKP’s technological developments to create a national production, dissemination, and research infrastructure offering a comprehensive range of scholarly publishing services to the Canadian community; and 3) organizing research activities focused on the evolution of the scholarly publishing sector.
 In 2019-2020, Coalition Publica’s national campaign was a great success: the annual objective to include 20 new journals was reached very quickly and a waiting list was established for 2021. The team also recognized the need for a holistic Digital Object Identifier (DOI) strategy, developing a Metadata Working Group in 2019 to achieve two main deliverables: 1) a best practices guide for OJS metadata for journals, and 2) a report to PKP and Érudit with technical recommendations to improve metadata quality in their respective systems.
-
-{:.patterned-bg}
 
 ### Institutional Hosting
 

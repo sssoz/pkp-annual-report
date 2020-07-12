@@ -6,20 +6,20 @@ PKP’s financial management utilizes SFU’s financial system and therefore adh
 
 ### Revenue
 
-|                                   | 2018       | 2019       |
-|-----------------------------------|------------|------------|
-| Publishing Services               | $506,536   | $506,536   |
-| Grants                            | $201,327   | $201,327   |
-| Development, Partners, & Sponsors | $188,865   | $188,865   |
-| SFU Library (in-kind)             | $104,628   | $104,628   |
-| **Total**                         | $1,001,356 | $1,001,356 |
+|                                   | 2019       |
+|-----------------------------------|------------|
+| Publishing Services               | $506,536   |
+| Grants                            | $201,327   |
+| Development, Partners, & Sponsors | $188,865   |
+| SFU Library (in-kind)             | $104,628   |
+| **Total**                         | $1,001,356 |
 
 ### Expenses
 
-|                               | 2018       | 2019       |
-|-------------------------------|------------|------------|
-| Personnel                     | $962,370   | $962,370   |
-| Community Support, Activities | $77,467    | $77,467    |
-| Infrastructure                | $44,365    | $44,365    |
-| Administration                | $14,401    | $14,401    |
-| **Total**                     | $1,098,605 | $1,098,605 |
+|                               | 2019       |
+|-------------------------------|------------|
+| Personnel                     | $962,370   |
+| Community Support, Activities | $77,467    |
+| Infrastructure                | $44,365    |
+| Administration                | $14,401    |
+| **Total**                     | $1,098,605 |

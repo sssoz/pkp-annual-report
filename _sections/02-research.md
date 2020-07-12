@@ -3,6 +3,7 @@ heading: Research
 subheading: We research open<span class="text-red text-red--large">.</span>
 intro: "When PKP was founded, a major barrier to connecting the academy to the larger world was restricted access to research through print publications and subscription paywalls. Our research continues to identify those barriers, providing solutions and proposing models that facilitate open access on a global scale."
 highlighted: true
+patterned: true
 ---
 
 ### Copyright Reform
@@ -15,12 +16,11 @@ Willinsky has been consulting with legal scholars, copyright lawyers at universi
 
 ### Preprint Uptake and Use Project
 
-{:.patterned-bg}
 In 2019, ScholCommLab visiting scholars Mario Malički and Janina Sarol (under the supervision of PKP Associate Director of Research, Juan Pablo Alperin) began analyzing preprint metadata to investigate preprint growth and uptake as part of a joint research initiative with ASAPBIo. Looking at data from several preprint servers, the team discovered (much to their dismay) that the metadata available was too unreliable to support their research. All was not lost, however, as their research revealed what not to do with preprint metadata. Shared early on with PKP developers, this project informed the development of our latest software, Open Preprint Systems (OPS), and resulted in four recommendations for improving preprint metadata.
 
 ### Subscribe-to-Open
 
-In 2017, John Willinsky proposed the following idea: what if we tapped into research libraries’ strong support for open access by asking them to subscribe to open access? Libraries would pay fees to journals that they were already subscribing to and in exchange, the journals would flip to open access. Working with Libraria, a collective of researchers based in the social sciences, this idea is now a reality. In 2019, Libraria joined forces with Berghahn Books to create a pilot project and on January 22, 2020, Berghahn Open Anthro was launched. Berghahn is expanding the model in 2021, as is Annual Reviews, with other publishers giving it serious consideration with support from Knowledge Unlatched. 
+In 2017, John Willinsky proposed the following idea: what if we tapped into research libraries’ strong support for open access by asking them to subscribe to open access? Libraries would pay fees to journals that they were already subscribing to and in exchange, the journals would flip to open access. Working with Libraria, a collective of researchers based in the social sciences, this idea is now a reality. In 2019, Libraria joined forces with Berghahn Books to create a pilot project and on January 22, 2020, Berghahn Open Anthro was launched. Berghahn is expanding the model in 2021, as is Annual Reviews, with other publishers giving it serious consideration with support from Knowledge Unlatched.
 
 281 subscribed
 13 titles flipped to OA

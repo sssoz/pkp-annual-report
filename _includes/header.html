@@ -9,7 +9,7 @@
         {% for section in site.sections %}
         <li>
           <a href="#{{ section.url | remove: '.html' | remove: '/sections/' | slice: 3, section.url.size }}">
-            {{ section.url | remove: '.html' | remove: '/sections/' | replace: '-', ' ' | slice: 3, section.url.size | upcase }}
+            {{ section.url | remove: '.html' | remove: '/sections/' | replace: '-', ' ' | slice: 3, section.url.size | capitalize }}
           </a>
         </li>
         {% endfor %}

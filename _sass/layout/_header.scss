@@ -4,10 +4,13 @@
   padding: $gutter;
   margin-right: $gutter-negative;
   margin-left: $gutter-negative;
-  border-top: $border solid $prussian-blue;
+  border-top: $border solid $buttercup-yellow;
+  background-color: $prussian-blue;
+  color: $white;
 
   a {
     display: inline-block;
+    color: $white;
   }
 
   strong {
@@ -16,14 +19,19 @@
     font-weight: 900;
   }
 
+  .logo path {
+    fill: $white;
+  }
+
   &:before {
     position: absolute;
     top: $border;
     left: 0;
     overflow-x: hidden;
-    background-position: center;
-    @include svg-bg('../img/ladders-cover.svg', 85vh, 100%);
-    background-size: cover;
+    background-position: right;
+    @include svg-bg('../img/grid-white.svg', 100vh, 50vw);
+    background-size: auto;
+    background-repeat: repeat;
   }
 
   > div {

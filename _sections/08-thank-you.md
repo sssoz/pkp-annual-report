@@ -33,17 +33,11 @@ Our thanks to all those who contributed to our project in 2019 including transla
 
 With special thanks to the following organizations for their support and contributions towards PKP events:
 
-<div class="org-logos">
-  <div class="org-logo">{% include svg/uab.svg %}</div>
-  <div class="org-logo">{% include svg/upitt.svg %}</div>
-  <div class="org-logo">{% include svg/sfu.svg %}</div>
-</div>
-
 {:.list .list--three-col}
-- Universitat Autònoma de Barcelona:
+- **Universitat Autònoma de Barcelona**
   - PKP 2019 Conference
   - BCN Sprint
-- University of Pittsburgh:
+- **University of Pittsburgh**
   - PGH Sprint
-- Simon Fraser University:
+- **Simon Fraser University**
   - SFU Sprint

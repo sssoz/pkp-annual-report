@@ -1,5 +1,5 @@
 .patterned-bg {
-  @include svg-bg('../img/ladders.svg', 75vh, 100%);
+  @include svg-bg('../img/ladders.svg', 100%, auto);
 }
 
 .section > p {

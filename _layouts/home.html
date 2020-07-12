@@ -17,8 +17,10 @@ layout: compress
 
       {% capture section_cycle %}{% cycle 'odd', 'even' %}{% endcapture %}
 
-      <section class="section{% if section.inverted %} section--inverted
-        {% elsif section.highlighted %} section--highlighted{% endif %}"
+      <section class="section
+        {% if section.inverted %} section--inverted
+        {% elsif section.highlighted %} section--highlighted{% endif %}
+        {% if section.patterned %} patterned-bg{% endif %}"
         id="{{ section.url | remove: '.html' | remove: '/sections/' | slice: 3, section.url.size }}">
         <header class="section__header">
           <h2>
