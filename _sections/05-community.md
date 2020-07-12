@@ -5,7 +5,7 @@ intro: "Behind PKP is a vibrant, passionate, and international community who hel
 ---
 
 {:.blockquote--patterned}
-> “{% include placeholder.html %}” <cite>&ndash; **Larry P. Alford** <br/>[University Chief Librarian, University of Toronto]</cite>
+> “The University of Toronto Libraries is proud to support PKP in its pursuit of advancing open access via its open source publishing software. Thanks to OJS, we have been able to support a growing number of faculty and student publications since 2005. Offering this service is part of the UTL's strategic priorities. It builds strong and enduring collaboration with faculty, students, staff, our consortial partners at the Ontario Council of University Libraries, and the Canadian scholarly communication community at large, and it fosters evolving research and scholarly publishing approaches that encourage sharing, inclusiveness, and knowledge creation.”  <cite>&ndash; **Larry P. Alford** <br/>University Chief Librarian, University of Toronto</cite>
 
 ---
 
@@ -24,9 +24,11 @@ intro: "Behind PKP is a vibrant, passionate, and international community who hel
 
 #### Events
 
-PKP both offers, and attends, conferences, events, and workshops around the world. In 2019, our team was invited to present workshops in Indonesia (HEBII International Workshop for Journal Editors) and South Africa (UCT-SPARC Africa Open Access Symposium). 
-By far our biggest event was PKP 2019, our bi-annual International Scholarly Publishing Conference co-hosted by the Universitat Autònoma de Barcelona (UAB) November 18-22, 2019. In addition to a two-day sprint, the event included six workshops, five keynote speakers, and XX presentations attended by XX participants from XX countries. 
-We also held three development sprints. In May, PKP held a pre-conference sprint as part of the Library Publishing Forum at Simon Fraser University (Canada). Then in July, the University of Pittsburgh (USA) hosted a three-day sprint. Our final sprint, as mentioned above, was in Barcelona (Spain) for PKP 2019. Our thanks to each of these institutions for providing space, staff, and support. Sprints are free, fun, and interactive events for community members to brainstorm important tasks, set priorities, and work collaboratively. Participants don’t just talk about improvements either. In 2019, PKP sprints made direct and real-time contributions towards documentation, user testing, accessibility, XML, metadata, and more. 
+PKP both offers, and attends, conferences, events, and workshops around the world. In 2019, our team was invited to present workshops in Indonesia (HEBII International Workshop for Journal Editors) and South Africa (UCT-SPARC Africa Open Access Symposium).
+
+By far our biggest event was PKP 2019, our bi-annual International Scholarly Publishing Conference co-hosted by the Universitat Autònoma de Barcelona (UAB) November 18-22, 2019. In addition to a two-day sprint, the event included six workshops, five keynote speakers, and XX presentations attended by XX participants from XX countries.
+
+We also held three development sprints. In May, PKP held a pre-conference sprint as part of the Library Publishing Forum at Simon Fraser University (Canada). Then in July, the University of Pittsburgh (USA) hosted a three-day sprint. Our final sprint, as mentioned above, was in Barcelona (Spain) for PKP 2019. Our thanks to each of these institutions for providing space, staff, and support. Sprints are free, fun, and interactive events for community members to brainstorm important tasks, set priorities, and work collaboratively. Participants don’t just talk about improvements either. In 2019, PKP sprints made direct and real-time contributions towards documentation, user testing, accessibility, XML, metadata, and more.
 
 #### [PS Clients]
 

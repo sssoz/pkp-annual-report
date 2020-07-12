@@ -8,8 +8,13 @@ patterned: true
 ### Open Preprint Systems
 
 In 2018, PKP announced a working partnership with SciELO to build the open source software necessary to host preprint servers. The requirements were clear: they needed a preprint server that was fully operable with OJS and could meet the decentralized, multilingual, and multidisciplinary needs of their network. With specifications and seed funding from SciELO, along with a generous donation from a Stanford University donor, Open Preprint Systems (OPS) was developed and released in English, Spanish, and Portuguese on February 28, 2020 alongside OJS/OMP 3.2.
+
 OPS joins Open Monograph Press (OMP) and OJS as applications built using the PKP Web Application Library (PKP-WAL). Like all PKP software, OPS can be easily installed with basic infrastructure, is portable, and uses a plugin architecture to enable customization. Those familiar with OJS and OMP will recognize built-in support for a wide array of features, including multilingualism. Because it shares many words with OJS, when released, OPS was also partially available in an additional 15 languages.
+
 The rise of preprints represents another element in the broader move toward open science. It is still early days for OPS, but we look forward to seeing how, like OJS, this software will adapt and grow to meet the needs of scholars around the world.
+
+{:.blockquote--centered .blockquote--patterned}
+> “PKP products build affordable state of art innovative open science research communication infrastructure worldwide. SciELO Network operation is highly dependent on OJS and more recently on OPS. We are proud to partner with PKP.” <cite>&ndash; **Abel Packer**  <br/>Director, SciELO Network</cite>
 
 ### Web Accessibility Audit
 
@@ -17,5 +22,13 @@ The release of OJS 3 in 2016 included significant user interface/user experience
 
 ### Translation
 
-{:.blockquote--right .blockquote--patterned}
->change to stats</cite>
+In January 2020, PKP began using Weblate, “[a web tool designed to ease translating for both developers and translators](https://translate.pkp.sfu.ca/engage/ojs/).” To date, we have 159 active users. The translation project for OJS currently contains:
+
+<article class="stats">
+  {% for stat in site.data.development.translation %}
+  <div class="stat">
+    <span class="stat__value">{{ stat.value }}</span>
+    <span class="stat__label">{{ stat.label }}</span>
+  </div>
+  {% endfor %}
+</article>

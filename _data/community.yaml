@@ -13,17 +13,17 @@ ps_clients:
   label: raised
 
 services:
-- service: Forum
-  label: Lorem ipsum
-  value: 999
+- service: PKP Community Forum
+  label: new signups
+  value: "1.9K"
 
 - service: Docs Hub
-  label: Lorem ipsum
-  value: 999
+  label: page views
+  value: X
 
 - service: PKP School
-  label: Lorem ipsum
-  value: 999
+  label: course registrations
+  value: 2121
 
 you:
 - id: publish

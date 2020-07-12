@@ -1,7 +1,7 @@
 ---
-heading: Outlook
-subheading: The future is open<span class="text-red text-red--large">.</span>
-intro: "In order to continue our research, development and community support, we need your help. You can support PKP financially as a sustainer and/or through contributions of time - each and every bit counts."
+heading: Sustainability
+subheading: Sustaining open<span class="text-red text-red--large">.</span>
+intro: "Our future depends upon strengthening ties and support from others committed to alternative models of scholarly publishing. In 2019, we continued to rely on four major revenue sources: community contributions, PKP Publishing Services revenue, research grants, and support from our administrative home, SFU. "
 highlighted: true
 ---
 

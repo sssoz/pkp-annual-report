@@ -21,11 +21,6 @@
       margin-bottom: $spacing-05;
       width: 66.666667%;
       @include typescale-05;
-
-      &:nth-of-type(even) {
-        text-align: right;
-        margin-left: 33.33333%;
-      }
     }
   }
 }
