@@ -77,3 +77,7 @@
   padding-right: $gutter;
   background-color: $athens-blue;
 }
+
+.section--patterned {
+  @include svg-bg('../img/ladders.svg', 100%, auto);
+}

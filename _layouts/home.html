@@ -20,7 +20,7 @@ layout: compress
       <section class="section
         {% if section.inverted %} section--inverted
         {% elsif section.highlighted %} section--highlighted{% endif %}
-        {% if section.patterned %} patterned-bg{% endif %}"
+        {% if section.patterned %} section--patterned{% endif %}"
         id="{{ section.url | remove: '.html' | remove: '/sections/' | slice: 3, section.url.size }}">
         <header class="section__header">
           <h2>

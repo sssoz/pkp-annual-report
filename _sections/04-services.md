@@ -3,6 +3,7 @@ heading: Services
 subheading: We serve open<span class="text-red text-red--large">.</span>
 intro: "The passion and expertise of our team has, since day one, been an integral part of our success. In addition to providing paid consultation and hosting services, PKP supports and serves scholarly publishing around the world through strategic projects, online engagement, documentation, and education."
 highlighted: true
+patterned: true
 ---
 
 ### Coalition Publica
