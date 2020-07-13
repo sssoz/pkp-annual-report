@@ -16,11 +16,13 @@ In 2019-2020, Coalition Publica’s national campaign was a great success: the a
 
 ### Institutional Hosting
 
-In 2019, PKP Publishing Services piloted an Institutional Hosting package with the University of British Columbia and the Colorado Alliance of Research Libraries. Designed specifically for libraries, the package offered free and unlimited student journals along with our premium OJS hosting and support services. The idea came about upon realization that we were uniquely situated to support larger institutions, both in expertise and experience. Upon analysis, we also realized we were able to provide volume-based discounts based on size. Now offered widely, the Institutional package is available to universities and colleges who wish to have hosting support for five or more journals. Hosting is free for student and course-journals provided they have faculty representation to ensure some level of continuity.
+In 2019, PKP Publishing Services piloted an Institutional Hosting package with the University of British Columbia and the Colorado Alliance of Research Libraries. Designed specifically for libraries, the package offered multi-journal hosting and support services to meet the specific needs of higher education institutions, along with free and unlimited student journals. The idea came about upon realization that we were uniquely situated to support larger institutions, both in expertise and experience. Upon analysis, we also realized we were able to provide volume-based discounts based on size. Now offered widely, the Institutional package is available to universities and colleges who wish to have hosting support for five or more journals. Hosting is free for student and course-journals provided they have faculty representation to ensure some level of continuity.
 
 ### Community Support
 
-As our community grows, so too does our expertise. PKP staff and community members are available online when you need help, have a question, or just want to reach out.
+As our community grows, so too does our expertise. PKP staff and community members are available online when you need help, have a question, or just want to reach out. PKP offers free online support via the PKP Community Forum (discussion board), PKP Docs Hub (user guides and developer documentation), and PKP School (open, self-paced courses). 
+
+From April 1, 2019 to March 31, 2020, the PKP Docs Hub (launched in 2018) continued to thrive, including visits from 178 countries: 
 
 <article class="stats">
   {% for stat in site.data.support-services.support %}
