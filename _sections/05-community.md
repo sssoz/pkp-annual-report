@@ -4,25 +4,12 @@ subheading: Community makes us open<span class="text-red text-red--large">.</spa
 intro: "Behind PKP is a vibrant, passionate, and international community who help to make our software better, together. Their voices and contributions are everything to us, and we endeavour to find ways to actively support, educate, and engage them."
 ---
 
-{:.blockquote--patterned}
+{:.blockquote--right .blockquote--patterned}
 > “The University of Toronto Libraries is proud to support PKP in its pursuit of advancing open access via its open source publishing software. Thanks to OJS, we have been able to support a growing number of faculty and student publications since 2005. Offering this service is part of the UTL's strategic priorities. It builds strong and enduring collaboration with faculty, students, staff, our consortial partners at the Ontario Council of University Libraries, and the Canadian scholarly communication community at large, and it fosters evolving research and scholarly publishing approaches that encourage sharing, inclusiveness, and knowledge creation.”  <cite>&ndash; **Larry P. Alford** <br/>University Chief Librarian, University of Toronto</cite>
 
 ---
 
-{% assign data = site.data.community.you %}
-
-### You publish <span class="text-red">open<span class="text-red--large">.</span></span>
-
-{% assign content = data[0].content %}
-{% assign img = data[0].img %}
-{% assign credit = data[0].credit %}
-{% include you.html content=content img=img credit=credit %}
-
-#### [PKP 2019]
-
-{% include placeholder-long.html %}
-
-#### Events
+### Events
 
 PKP both offers, and attends, conferences, events, and workshops around the world. In 2019, our team was invited to present workshops in Indonesia (HEBII International Workshop for Journal Editors) and South Africa (UCT-SPARC Africa Open Access Symposium).
 
@@ -30,66 +17,27 @@ By far our biggest event was PKP 2019, our bi-annual International Scholarly Pub
 
 We also held three development sprints. In May, PKP held a pre-conference sprint as part of the Library Publishing Forum at Simon Fraser University (Canada). Then in July, the University of Pittsburgh (USA) hosted a three-day sprint. Our final sprint, as mentioned above, was in Barcelona (Spain) for PKP 2019. Our thanks to each of these institutions for providing space, staff, and support. Sprints are free, fun, and interactive events for community members to brainstorm important tasks, set priorities, and work collaboratively. Participants don’t just talk about improvements either. In 2019, PKP sprints made direct and real-time contributions towards documentation, user testing, accessibility, XML, metadata, and more.
 
-#### [PS Clients]
+### Strategic Partners
 
-<ul class="stats">
-  {% for stat in site.data.community.ps_clients limit:1 %}
-  <li class="stat stat--featured">
+Strategic Partners include institutions, publishers, and other agencies that have an ongoing consultative relationship with PKP and closely aligned strategic goals. Collaborative activities are wide ranging and may include: collaboration on research projects; development contributions; provision of language translations; assistance with software documentation, learning material or technical support; joint workshops, seminars or conference presentations; and participation in software testing. In 2019, three new strategic partners joined PKP:
+
+{:.list .list--three-col}
+- 4Science
+- Crossref
+- Open Academia
+
+### Forum
+
+The PKP Community Forum is more than just an online discussion board. It is a gathering place, a source of knowledge, and a safe space for inquiring minds. Participants come from all over the world, from all types of professions, and bring a range of skills and abilities. In 2019, trending topics included DOIs, themes, plugins, and upgrading.
+
+Visitor statistics from April 1, 2019-March 31, 2019:
+
+<article class="stats">
+  {% for stat in site.data.community.forum %}
+  <div class="stat">
+    <h4>{{ stat.service }}</h4>
     <span class="stat__value">{{ stat.value }}</span>
     <span class="stat__label">{{ stat.label }}</span>
-    <p>{{ stat.description }}</p>
-  </li>
+  </div>
   {% endfor %}
-  {% for stat in site.data.community.ps_clients offset:1 %}
-  <li class="stat">
-    <span class="stat__value">{{ stat.value }}</span>
-    <span class="stat__label">{{ stat.label }}</span>
-  </li>
-  {% endfor %}
-</ul>
-
----
-
-### You support <span class="text-red">open<span class="text-red--large">.</span></span>
-
-{% assign content = data[1].content %}
-{% assign img = data[1].img %}
-{% assign credit = data[1].credit %}
-{% include you.html content=content img=img credit=credit %}
-
-#### [Contributors]
-
-{% include placeholder-long.html %}
-
-#### [Strategic Partners]
-
-{% include placeholder.html %}
-
-#### [Translation]
-
-[contributor stats]
-
----
-
-### You sustain <span class="text-red">open<span class="text-red--large">.</span></span>
-
-{% assign content = data[2].content %}
-{% assign img = data[2].img %}
-{% assign credit = data[2].credit %}
-{% include you.html content=content img=img credit=credit %}
-
-#### [Development Partners]
-
-{% include placeholder.html %}
-
----
-
-### [Why do you support PKP?]
-
-> <cite>**University of Toronto**</cite> <br/>“{% include placeholder.html %}”
-
-{:.blockquote--centered}
-> <cite>**Ubiquity**</cite> <br/>“{% include placeholder.html %}”
-
-{:.blockquote--right}
-> <cite>**SciELO**</cite> <br/>“{% include placeholder.html %}”
+</article>

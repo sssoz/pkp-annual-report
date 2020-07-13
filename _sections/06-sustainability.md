@@ -5,8 +5,10 @@ intro: "Our future depends upon strengthening ties and support from others commi
 highlighted: true
 ---
 
-{:.blockquote--patterned}
+{:.blockquote--centered .blockquote--patterned}
 > “SFU Library is no stranger to open. We lead by example in supporting open access, open source, open data, and open educational resources. At the heart of our own open learning and research practices is the Public Knowledge Project (PKP). From our work in Digital Publishing, hosting OJS journals for students and faculty, to our latest project, SFU’s Knowledge Mobilization Hub, we understand first hand the value of making knowledge public. This shared vision - what it means to be open - is the reason why we continue to serve as PKP’s administrative home, providing human resources, financial, and legal support.” <cite>&ndash; **Gwen Bird** <br/>Dean of Libraries, SFU Library, Simon Fraser University</cite>
+
+---
 
 ### SCOSS
 
@@ -23,9 +25,23 @@ SCOSS selected PKP because of our ambition to scale up our hosting and publishin
 2. **Community engagement**
 3. **User needs, accessibility, and usability** -->
 
+---
+
 ### PKP Publishing Services
 
-{% include placeholder-long.html %}
+X% of PKP’s operational revenue comes from PKP Publishing Services. By choosing OJS and hosting with PKP, our clients are directly supporting and sustaining open infrastructure. PKP currently hosts 540 OJS journals.
+
+Client statistics April 1, 2019-March 31, 2020:
+
+<article class="stats">
+  {% for stat in site.data.sustainability %}
+  <div class="stat">
+    <span class="stat__value">{{ stat.value }}</span>
+    <span class="stat__label">{{ stat.label }}</span>
+  </div>
+  {% endfor %}
+</article>
+
 
 ---
 

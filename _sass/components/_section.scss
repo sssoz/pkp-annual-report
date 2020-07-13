@@ -1,5 +1,4 @@
 .section {
-  margin-bottom: 25vh;
   padding: 6vw 0;
   min-height: 100vh;
 
@@ -61,7 +60,7 @@
     background-color: $athens-blue;
   }
 
-  a {
+  a, figcaption {
     color: $white;
   }
 }

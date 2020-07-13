@@ -1,0 +1,12 @@
+support:
+- service: PKP Community Forum
+  label: new signups
+  value: "1.9K"
+
+- service: Docs Hub
+  label: page views
+  value: X
+
+- service: PKP School
+  label: course registrations
+  value: 2121

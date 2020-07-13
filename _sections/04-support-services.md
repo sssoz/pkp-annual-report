@@ -23,7 +23,7 @@ In 2019, PKP Publishing Services piloted an Institutional Hosting package with t
 As our community grows, so too does our expertise. PKP staff and community members are available online when you need help, have a question, or just want to reach out.
 
 <article class="stats">
-  {% for stat in site.data.community.services %}
+  {% for stat in site.data.support-services.support %}
   <div class="stat">
     <h4>{{ stat.service }}</h4>
     <span class="stat__value">{{ stat.value }}</span>
