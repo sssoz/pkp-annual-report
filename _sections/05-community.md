@@ -15,11 +15,16 @@ PKP both offers, and attends, conferences, events, and workshops around the worl
 
 By far our biggest event was PKP 2019, our bi-annual International Scholarly Publishing Conference co-hosted by the Universitat Autònoma de Barcelona (UAB) November 18-22, 2019. In addition to a two-day sprint, the event included six workshops, five keynote speakers, and 32 presentations attended by 164 participants from 25 countries.
 
-We also held three development sprints. In May, PKP held a pre-conference sprint as part of the Library Publishing Forum at Simon Fraser University (Canada). Then in July, the University of Pittsburgh (USA) hosted a three-day sprint. Our final sprint, as mentioned above, was in Barcelona (Spain) for PKP 2019. Our thanks to each of these institutions for providing space, staff, and support. Sprints are free, fun, and interactive events for community members to brainstorm important tasks, set priorities, and work collaboratively. Participants don’t just talk about improvements: In 2019, PKP sprints made direct and real-time contributions towards documentation, user testing, accessibility, XML, metadata, and more. 
+We also held three development sprints. In May, PKP held a pre-conference sprint as part of the Library Publishing Forum at Simon Fraser University (Canada). Then in July, the University of Pittsburgh (USA) hosted a three-day sprint. Our final sprint, as mentioned above, was in Barcelona (Spain) for PKP 2019. Our thanks to each of these institutions for providing space, staff, and support. Sprints are free, fun, and interactive events for community members to brainstorm important tasks, set priorities, and work collaboratively. Participants don’t just talk about improvements: In 2019, PKP sprints made direct and real-time contributions towards documentation, user testing, accessibility, XML, metadata, and more.
 
 ### Strategic Partners
 
-[Strategic Partners](https://pkp.sfu.ca/strategic-partners/) include institutions, publishers, and other agencies that have an ongoing consultative relationship with PKP and closely aligned strategic goals. Collaborative activities are wide ranging and may include: collaboration on research projects; development contributions; provision of language translations; assistance with software documentation, learning material or technical support; joint workshops, seminars or conference presentations; and participation in software testing. In 2019, three new strategic partners joined PKP: [4Science](https://www.4science.it/), [Crossref](https://www.crossref.org/), and [Open Academia](https://www.openacademia.net/).
+[Strategic Partners](https://pkp.sfu.ca/strategic-partners/) include institutions, publishers, and other agencies that have an ongoing consultative relationship with PKP and closely aligned strategic goals. Collaborative activities are wide ranging and may include: collaboration on research projects; development contributions; provision of language translations; assistance with software documentation, learning material or technical support; joint workshops, seminars or conference presentations; and participation in software testing. In 2019, three new strategic partners joined PKP:
+
+{:.list .list--three-col .list--numbered}
+- [**4Science**](https://www.4science.it/)
+- [**Crossref**](https://www.crossref.org/)
+- [**Open Academia**](https://www.openacademia.net/)
 
 ### Community Forum
 
