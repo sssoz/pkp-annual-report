@@ -19,6 +19,7 @@ With special thanks to the following organizations for their support and contrib
   - PGH Sprint
 - **Simon Fraser University**
   - SFU Sprint
+  - PKP 2019 Conference
 
 ---
 
