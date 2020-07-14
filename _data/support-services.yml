@@ -1,12 +1,9 @@
 support:
-- service: PKP Community Forum
-  label: new signups
-  value: "1.9K"
+- label: page views
+  value: 259,629
 
-- service: Docs Hub
-  label: page views
-  value: X
+- label: users
+  value: 52,300
 
-- service: PKP School
-  label: course registrations
-  value: 2121
+- label: <a href="https://pkp.sfu.ca/tag/pkpdocs/" target="_blank" rel="noopener">new guides</a>
+  value: 9
