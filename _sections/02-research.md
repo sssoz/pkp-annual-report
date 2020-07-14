@@ -22,6 +22,8 @@ In 2019, ScholCommLab visiting scholars Mario Malički and Janina Sarol (under t
 
 In 2017, John Willinsky proposed the following idea: what if we tapped into research libraries’ strong support for open access by asking them to subscribe to open access? Libraries would pay fees to journals that they were already subscribing to and in exchange, the journals would flip to open access. Working with Libraria, a collective of researchers based in the social sciences, this idea is now a reality. In 2019, Libraria joined forces with Berghahn Books to create a pilot project and on January 22, 2020, Berghahn Open Anthro was launched. Berghahn is expanding the model in 2021, as is Annual Reviews, with other publishers giving it serious consideration with support from Knowledge Unlatched.
 
+Support for Berghahn Open Anthro as of March 2020:
+
 <article class="stats">
   {% for stat in site.data.research.subscribe_to_open %}
   <div class="stat">
