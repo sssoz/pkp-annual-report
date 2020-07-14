@@ -26,11 +26,11 @@ Strategic Partners include institutions, publishers, and other agencies that hav
 - Crossref
 - Open Academia
 
-### Forum
+### Community Forum
 
 The PKP Community Forum is more than just an online discussion board. It is a gathering place, a source of knowledge, and a safe space for inquiring minds. Participants come from all over the world, from all types of professions, and bring a range of skills and abilities. In 2019, trending topics included DOIs, themes, plugins, and upgrading.
 
-Visitor statistics from April 1, 2019-March 31, 2019:
+Forum statistics from April 1, 2019-March 31, 2019:
 
 <article class="stats">
   {% for stat in site.data.community.forum %}
