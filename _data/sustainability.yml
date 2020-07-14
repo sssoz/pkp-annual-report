@@ -1,8 +1,8 @@
-- label: new installations journals
-  value: 86
+- label: OJS journals
+  value: 540 
 
-- label: new clients
-  value: 48
+- label: OMP presses
+  value: 10
 
 - label: countries
-  value: 22
+  value: 53
