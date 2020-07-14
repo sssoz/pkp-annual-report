@@ -27,7 +27,6 @@ From April 1, 2019 to March 31, 2020, the PKP Docs Hub (launched in 2018) contin
 <article class="stats">
   {% for stat in site.data.support-services.support %}
   <div class="stat">
-    <h4>{{ stat.service }}</h4>
     <span class="stat__value">{{ stat.value }}</span>
     <span class="stat__label">{{ stat.label }}</span>
   </div>
