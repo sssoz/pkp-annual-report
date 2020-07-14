@@ -24,6 +24,7 @@ With special thanks to the following organizations for their support and contrib
 ---
 
 ### Sustainers
+PKP Sustainers provide financial support on a renewable, annual basis. Sustainer levels are determined by the amount of financial contribution.  In 2019, the SCOSS program added a new, special/campaign category to our sustainer program. Thank you to the following institutions for their 2019-2020 contributions:
 
 #### SCOSS
 
@@ -39,6 +40,7 @@ With special thanks to the following organizations for their support and contrib
 
 - Indiana University Libraries
 - SciELO
+- University of New Brunswick Libraries
 - York University Libraries
 
 #### Silver Level ($5,000)
@@ -49,7 +51,6 @@ With special thanks to the following organizations for their support and contrib
 - University of Illinois (Chicago / Urbana-Champaign) Libraries
 - University of Manitoba Libraries
 - University of Miami Libraries
-- University of New Brunswick Libraries
 - University of Ottawa Library
 - University of Victoria Libraries
 - University of Windsor Library
@@ -83,3 +84,17 @@ With special thanks to the following organizations for their support and contrib
 ---
 
 ### Development Partners
+
+The following institutions provide significant financial and in-kind support for a renewable three year term. Development Partners also play an important role in PKP's governance, serving as members of the PKP Advisory Committee and on additional committees and interest groups. We grately appreciate the time, funding, and passion these institutions bring to our team:
+
+{:.list .list--three-col}
+- **Ontario Council of University Libraries**
+- **Simon Fraser Unviersity**
+- **Stanford University**
+
+{:.list .list--three-col}
+- **University of Alberta**
+- **University of British Columbia**
+- **University of Pittsburgh**
+
+[closing statement]
