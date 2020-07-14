@@ -97,4 +97,4 @@ The following institutions provide significant financial and in-kind support for
 - **University of British Columbia**
 - **University of Pittsburgh**
 
-[closing statement]
+Join us! Financial and in-kind contributions help fund PKP's research, software development, and support services. Become a member our established and much appreciated community and help us continue to develop and improve open access/open science infrastructure well into the future.  To make a pledge, [contact us] (https://pkp.sfu.ca/contact-us/).
