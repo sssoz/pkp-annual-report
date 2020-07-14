@@ -29,9 +29,9 @@ SCOSS selected PKP because of our ambition to scale up our hosting and publishin
 
 ### PKP Publishing Services
 
-X% of PKP’s operational revenue comes from PKP Publishing Services. By choosing OJS and hosting with PKP, our clients are directly supporting and sustaining open infrastructure. PKP currently hosts 540 OJS journals.
+X% of PKP’s operational revenue comes from PKP Publishing Services. By choosing OJS and hosting with PKP, our clients are directly supporting and sustaining open infrastructure. From April 1, 2019 to March 31, 2020, Publishing Services brought in 48 new clients (from 22 different countries) for a total of 86 new OJS journals and 1 OMP press. 
 
-Client statistics April 1, 2019-March 31, 2020:
+PKP Publishing Services at-a-glance:
 
 <article class="stats">
   {% for stat in site.data.sustainability %}
