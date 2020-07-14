@@ -1,5 +1,5 @@
 ---
-heading: Development
+heading: Software
 subheading: We develop open<span class="text-red text-red--large">.</span>
 intro: "For more than twenty years, PKP has been developing open infrastructure that improves and adapts with the changing scholarly publishing ecosystem. We believe that scholarship is best when it is diverse and global, and we build software to support those aims."
 patterned: true
