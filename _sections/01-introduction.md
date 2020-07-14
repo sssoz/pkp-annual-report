@@ -1,7 +1,7 @@
 ---
 heading: Introduction
 subheading: Come in, we’re open<span class="text-red text-red--large">.</span>
-intro: "Egestas turpis aut consectetuer elementum morbi urna ac urna nascetur nec eros pede posuere sit placerat quam natoque amet elit sagittis neque dis eros integer curabitur tincidunt felis donec fringilla ullamcorper placerat condimentum sodales elementum in proin vitae interdum dis in urna bibendum aliquet nam non neque nullam cras pretium."
+intro: "PKP is a multi-university initiative developing (free) open source software and conducting research to improve the quality and reach of scholarly publishing."
 ---
 
 ### Our Story
