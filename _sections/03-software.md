@@ -5,7 +5,7 @@ intro: "For more than twenty years, PKP has been developing open infrastructure 
 patterned: true
 photo: "img/bcn6.jpg"
 photo_alt: "Three men at a desk, giving a presentation."
-photo_credit: "Photograph by <a href='http://nugentimages.com/' target='_blank' rel='noopener'>Jason Nugent</a>."
+photo_credit: "Photograph by <a href='https://nugentimages.com/' target='_blank' rel='noopener'>Jason Nugent</a>."
 ---
 
 ### Open Preprint Systems

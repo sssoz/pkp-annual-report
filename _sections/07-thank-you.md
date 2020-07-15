@@ -5,7 +5,7 @@ intro: 'In 2019, PKP was awarded an Open Publishing Lifetime Contribution Award,
 inverted: true
 photo: "img/bcn7.jpg"
 photo_alt: "An out-of-focus photograph of warm lights."
-photo_credit: "Photograph by <a href='http://nugentimages.com/' target='_blank' rel='noopener'>Jason Nugent</a>."
+photo_credit: "Photograph by <a href='https://nugentimages.com/' target='_blank' rel='noopener'>Jason Nugent</a>."
 ---
 
 ### Contributors

@@ -3,6 +3,10 @@ blockquote {
   color: $prussian-blue;
   @include font-serif;
 
+  .portrait {
+    margin: 0 auto $spacing-04 0;
+  }
+
   > cite {
     @include font-sans;
   }

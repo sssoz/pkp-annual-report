@@ -4,7 +4,7 @@ subheading: Community makes us open<span class="text-red text-red--large">.</spa
 intro: "Behind PKP is a vibrant, passionate, and international community who help to make our software better, together. Their voices and contributions are everything to us, and we endeavour to find ways to actively support, educate, and engage them."
 photo: "img/bcn4.jpg"
 photo_alt: "A large, diverse group of people sitting in a classroom and facing the camera."
-photo_credit: "Photograph by <a href='http://nugentimages.com/' target='_blank' rel='noopener'>Jason Nugent</a>."
+photo_credit: "Photograph by <a href='https://nugentimages.com/' target='_blank' rel='noopener'>Jason Nugent</a>."
 ---
 
 {:.blockquote--right .blockquote--patterned}
@@ -14,7 +14,7 @@ photo_credit: "Photograph by <a href='http://nugentimages.com/' target='_blank' 
 
 ### Events
 
-PKP both offers, and attends, conferences, events, and workshops around the world. In 2019, our team was invited to present workshops in Indonesia ([HEBII International Workshop for Journal Editors](https://indonesianeditor.org/index.php/news/item/71-international-workshop-for-journal-editors)) and South Africa ([UCT-SPARC Africa Open Access Symposium](http://www.sparcafricasymp.uct.ac.za/)).
+PKP both offers, and attends, conferences, events, and workshops around the world. In 2019, our team was invited to present workshops in Indonesia ([HEBII International Workshop for Journal Editors](https://indonesianeditor.org/index.php/news/item/71-international-workshop-for-journal-editors)) and South Africa ([UCT-SPARC Africa Open Access Symposium](https://www.sparcafricasymp.uct.ac.za/)).
 
 By far our biggest event was PKP 2019, our bi-annual International Scholarly Publishing Conference co-hosted by the Universitat Autònoma de Barcelona (UAB) November 18-22, 2019. In addition to a two-day sprint, the event included six workshops, five keynote speakers, and 32 presentations attended by 164 participants from 25 countries.
 

@@ -6,7 +6,7 @@ highlighted: true
 patterned: true
 photo: "img/bcn1.jpg"
 photo_alt: "A group of flamingoes, one is in focus."
-photo_credit: "Photograph by <a href='http://nugentimages.com/' target='_blank' rel='noopener'>Jason Nugent</a>."
+photo_credit: "Photograph by <a href='https://nugentimages.com/' target='_blank' rel='noopener'>Jason Nugent</a>."
 ---
 
 ### Coalition Publica

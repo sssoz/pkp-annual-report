@@ -6,7 +6,7 @@ highlighted: true
 patterned: true
 photo: "img/bcn3.jpg"
 photo_alt: "A bird’s-eye view photograph of Barcelona in the daytime."
-photo_credit: "Photograph by <a href='http://nugentimages.com/' target='_blank' rel='noopener'>Jason Nugent</a>."
+photo_credit: "Photograph by <a href='https://nugentimages.com/' target='_blank' rel='noopener'>Jason Nugent</a>."
 ---
 
 {:.blockquote--centered .blockquote--patterned}
@@ -16,7 +16,7 @@ photo_credit: "Photograph by <a href='http://nugentimages.com/' target='_blank' 
 
 ### SCOSS
 
-The [Global Sustainability Coalition for Open Science Services](https://scoss.org/) (SCOSS) was formed in early 2017 with the purpose of providing a new coordinated cost-sharing framework for enabling the broader open access (OA) and open science (OS) community to support the non-commercial services on which it depends. In its pilot funding cycle, more than 1.5 million euros were been pledged by some 200 institutions worldwide to help secure the [Directory of Open Access Journals](https://doaj.org/) (DOAJ) and [SHERPA Ro/MEO](http://sherpa.ac.uk/romeo/index.php).
+The [Global Sustainability Coalition for Open Science Services](https://scoss.org/) (SCOSS) was formed in early 2017 with the purpose of providing a new coordinated cost-sharing framework for enabling the broader open access (OA) and open science (OS) community to support the non-commercial services on which it depends. In its pilot funding cycle, more than 1.5 million euros were been pledged by some 200 institutions worldwide to help secure the [Directory of Open Access Journals](https://doaj.org/) (DOAJ) and [SHERPA Ro/MEO](https://sherpa.ac.uk/romeo/index.php).
 
 In 2019, SCOSS launched its second funding cycle. PKP was selected as one of three vetted services – along with the [Directory of Open Access Books](https://www.doabooks.org/) (DOAB)/[Open Access Publishing in European Networks](https://www.oapen.org/) (OAPEN) and [OpenCitations](https://opencitations.net/) – to be presented to the SCOSS international scholarly community for funding.
 
