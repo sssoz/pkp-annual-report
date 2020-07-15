@@ -1,9 +1,9 @@
 support:
 - label: page views
-  value: "259,629"
+  value: "259.6K"
 
 - label: users
-  value: "52,300"
+  value: "52.3K"
 
 - label: <a href="https://pkp.sfu.ca/tag/pkpdocs/" target="_blank" rel="noopener">new guides</a>
   value: 9
