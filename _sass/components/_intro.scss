@@ -10,7 +10,6 @@
     margin-bottom: $spacing-03;
     margin-left: $gutter-negative;
     margin-right: $gutter-negative;
-    max-height: 50vh;
     overflow-y: hidden;
 
     &:before {
@@ -48,6 +47,7 @@
         flex-basis: 0px;
         flex-grow: 1;
         overflow: hidden;
+        height: 30vh;
       }
 
       &--left {
@@ -60,7 +60,6 @@
         margin-top: 0;
         margin-right: $gutter-negative;
         margin-bottom: -$spacing-05;
-
 
         figcaption {
           margin-left: 50%;

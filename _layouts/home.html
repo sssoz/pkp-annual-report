@@ -32,34 +32,34 @@ layout: compress
           {% if section.intro and section_cycle == 'even' %}
           <div class="intro">
             <div class="intro__content">
-              <div>
+              <p>
                 {{ section.intro }}
-              </div>
+              </p>
             </div>
 
             <figure class="intro__figure intro__figure--right">
               <div>
-                <img src="https://source.unsplash.com/collection/10758659" alt=""/>
+                <img src="{{ section.photo }}" alt="{{ section.photo_alt }}"/>
               </div>
               <figcaption>
-                <small>Photograph by Wikipedia contributor ABCDEF, distributed under a CC-BY 3.0 license.</small>
+                <small>{{ section.photo_credit }}</small>
               </figcaption>
             </figure>
           </div>
           {% elsif section.intro and section_cycle == 'odd' %}
           <div class="intro">
             <div class="intro__content">
-              <div>
+              <p>
                 {{ section.intro }}
-              </div>
+              </p>
             </div>
 
             <div class="intro__figure intro__figure--left">
               <div>
-                <img src="https://source.unsplash.com/collection/10758668" alt=""/>
+                <img src="{{ section.photo }}" alt="{{ section.photo_alt }}"/>
               </div>
               <figcaption>
-                <small>Photograph by Wikipedia contributor ABCDEF, distributed under a CC-BY 3.0 license.</small>
+                <small>{{ section.photo_credit }}</small>
               </figcaption>
             </div>
           </div>

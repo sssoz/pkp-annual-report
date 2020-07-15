@@ -4,6 +4,9 @@ subheading: We research open<span class="text-red text-red--large">.</span>
 intro: "When PKP was founded, a major barrier to connecting the academy to the larger world was restricted access to research through print publications and subscription paywalls. Our research continues to identify those barriers, providing solutions and proposing models that facilitate open access on a global scale."
 highlighted: true
 patterned: true
+photo: "img/bcn5.jpg"
+photo_alt: "A group of women co-working on their laptops."
+photo_credit: "Photograph by <a href='http://nugentimages.com/' target='_blank' rel='noopener'>Jason Nugent</a>."
 ---
 
 ### Copyright Reform

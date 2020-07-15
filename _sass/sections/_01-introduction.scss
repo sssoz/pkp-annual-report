@@ -1,0 +1,7 @@
+#introduction {
+  @media (min-width: 1024px) {
+    .intro__content p {
+      margin-bottom: $spacing-06;
+    }
+  }
+}

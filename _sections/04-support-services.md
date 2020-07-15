@@ -4,6 +4,9 @@ subheading: We serve open<span class="text-red text-red--large">.</span>
 intro: "The passion and expertise of our team has, since day one, been an integral part of our success. In addition to providing paid consultation and hosting services, PKP supports and serves scholarly publishing around the world through strategic projects, online engagement, documentation, and education."
 highlighted: true
 patterned: true
+photo: "img/bcn1.jpg"
+photo_alt: "A group of flamingoes, one is in focus."
+photo_credit: "Photograph by <a href='http://nugentimages.com/' target='_blank' rel='noopener'>Jason Nugent</a>."
 ---
 
 ### Coalition Publica
@@ -20,9 +23,9 @@ In 2019, [PKP Publishing Services](https://pkpservices.sfu.ca/) piloted an Insti
 
 ### Community Support
 
-As our community grows, so too does our expertise. PKP staff and community members are available online when you need help, have a question, or just want to reach out. PKP offers free online support via the [PKP Community Forum](https://forum.pkp.sfu.ca/) (discussion board), [PKP Docs Hub](https://docs.pkp.sfu.ca/) (user guides and developer documentation), and [PKP School](https://pkpschool.sfu.ca/) (open, self-paced courses). 
+As our community grows, so too does our expertise. PKP staff and community members are available online when you need help, have a question, or just want to reach out. PKP offers free online support via the [PKP Community Forum](https://forum.pkp.sfu.ca/) (discussion board), [PKP Docs Hub](https://docs.pkp.sfu.ca/) (user guides and developer documentation), and [PKP School](https://pkpschool.sfu.ca/) (open, self-paced courses).
 
-From April 1, 2019 to March 31, 2020, the PKP Docs Hub (launched in 2018) continued to thrive, including visits from 178 countries: 
+From April 1, 2019 to March 31, 2020, the PKP Docs Hub (launched in 2018) continued to thrive, including visits from 178 countries:
 
 <article class="stats">
   {% for stat in site.data.support-services.support %}

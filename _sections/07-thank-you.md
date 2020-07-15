@@ -3,6 +3,9 @@ heading: Thank You
 subheading: The future is open<span class="text-red text-red--large">.</span>
 intro: 'In 2019, PKP was awarded an Open Publishing Lifetime Contribution Award, part of the <a href="https://openpublishingawards.org/" target="_blank" rel="noopener">2019 Open Publishing Awards</a>. None of our work - past, present, and future - would be possible without the ongoing commitment and support of our community. For those who contributed in 2019-2020, we thank you.'
 inverted: true
+photo: "img/bcn7.jpg"
+photo_alt: "An out-of-focus photograph of warm lights." 
+photo_credit: "Photograph by <a href='http://nugentimages.com/' target='_blank' rel='noopener'>Jason Nugent</a>."
 ---
 
 ### Contributors

@@ -2,6 +2,9 @@
 heading: Community
 subheading: Community makes us open<span class="text-red text-red--large">.</span>
 intro: "Behind PKP is a vibrant, passionate, and international community who help to make our software better, together. Their voices and contributions are everything to us, and we endeavour to find ways to actively support, educate, and engage them."
+photo: "img/bcn4.jpg"
+photo_alt: "A large, diverse group of people sitting in a classroom and facing the camera."
+photo_credit: "Photograph by <a href='http://nugentimages.com/' target='_blank' rel='noopener'>Jason Nugent</a>."
 ---
 
 {:.blockquote--right .blockquote--patterned}

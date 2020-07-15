@@ -3,7 +3,7 @@
 title: Annual Report
 year: 2019
 description: >- # this means to ignore newlines until "baseurl:"
-  The Public Knowledge Project (PKP) was established in 1998 as an academic project. Long before “open access” was coined, PKP was trying to solve the problem of cost as a barrier to creating and consuming scholarship online. Our team of scholars and students pursued this goal for nearly three years before, in 2001, Open Journal Systems (OJS) was born.
+  "PKP is a multi-university initiative developing (free) open source software and conducting research to improve the quality and reach of scholarly publishing."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 collections:
