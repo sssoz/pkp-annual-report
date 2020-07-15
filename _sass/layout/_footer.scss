@@ -1,6 +1,5 @@
 .footer {
   @extend .section--inverted;
-  margin: $gutter-negative;
   padding-bottom: $gutter;
   @include typescale-06;
 

@@ -50,7 +50,7 @@
 }
 
 .section--inverted {
-  margin: $gutter-negative $gutter-negative $gutter;
+  margin: 0 $gutter-negative 0 $gutter-negative;
   padding-left: $gutter;
   padding-right: $gutter;
   background-color: $black;
