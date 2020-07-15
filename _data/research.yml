@@ -1,8 +1,8 @@
 subscribe_to_open:
-- label: subscribed
+- label: libraries subscribed
   value: 281
 
-- label: titles flipped to OA
+- label: journals flipped to OA
   value: 13
 
 - label: APCs
