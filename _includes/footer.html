@@ -1,13 +1,24 @@
 <footer class="footer">
-  <p>
-    <a href="https://pkp.sfu.ca" target="_blank" rel="noopener">
-      {% include svg/logo.svg %}
-    </a> <br/><br/>
-    © {{ 'now' | date: "%Y" }} Public Knowledge Project
-  </p>
-  <p class="tagline">
-    <strong>Making <br/>knowledge <br/>public.</strong>
-  </p>
+  <div>
+    <ul class="list list--two-col">
+      <li>
+        <a href="https://pkp.sfu.ca" target="_blank" rel="noopener">
+          {% include svg/logo.svg %}
+        </a> <br/><br/>
+      </li>
+      <li>
+        <a href="https://pkp.sfu.ca" target="_blank" rel="noopener">
+          {% include svg/sfu-library.svg %}
+        </a>
+      </li>
+    </ul>
+    <p>
+      <small>© {{ 'now' | date: "%Y" }} Public Knowledge Project.</small>
+      <br/>
+      <small>Content on this page is licensed under a <br/><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">Creative Commons Attribution-NonCommercial-NoDerivatives <br/>4.0 International license</a>.</small>
+    </p>
+  </div>
+  <p class="tagline"><strong>Making <br/>knowledge <br/>public.</strong></p>
 </footer>
 
 <script>

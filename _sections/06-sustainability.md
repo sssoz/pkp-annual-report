@@ -3,6 +3,7 @@ heading: Sustainability
 subheading: Sustaining open<span class="text-red text-red--large">.</span>
 intro: "Our future depends upon strengthening ties and support from others committed to alternative models of scholarly publishing. In 2019, we continued to rely on four major revenue sources: community contributions, PKP Publishing Services revenue, research grants, and support from our administrative home, SFU Library. "
 highlighted: true
+patterned: true
 photo: "img/bcn3.jpg"
 photo_alt: "A bird’s-eye view photograph of Barcelona in the daytime."
 photo_credit: "Photograph by <a href='http://nugentimages.com/' target='_blank' rel='noopener'>Jason Nugent</a>."

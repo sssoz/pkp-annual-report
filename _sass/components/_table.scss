@@ -1,11 +1,11 @@
 table {
   border-spacing: 0;
   width: 100%;
-  font-size: smaller;
+  @include typescale-06;
   @include font-sans;
 
   th, td {
-    padding: $spacing-04 $spacing-04 $spacing-04 0;
+    padding: $spacing-03 $spacing-03 $spacing-03 0;
 
     // Specific to #financials section
     &:nth-child(2),
