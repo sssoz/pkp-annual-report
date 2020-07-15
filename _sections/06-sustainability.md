@@ -6,7 +6,7 @@ highlighted: true
 ---
 
 {:.blockquote--centered .blockquote--patterned}
-> “SFU Library is no stranger to open. We lead by example in supporting open access, open source, open data, and open educational resources. At the heart of our own open learning and research practices is the Public Knowledge Project (PKP). From our work in Digital Publishing, hosting OJS journals for students and faculty, to our latest project, SFU’s Knowledge Mobilization Hub, we understand first hand the value of making knowledge public. This shared vision - what it means to be open - is the reason why we continue to serve as PKP’s administrative home, providing human resources, financial, and legal support.” <cite>&ndash; **Gwen Bird** <br/>Dean of Libraries, SFU Library, Simon Fraser University</cite>
+> {% include portrait.html name="gwen" alt="Portrait of Gwen Bird" %} “SFU Library is no stranger to open. We lead by example in supporting open access, open source, open data, and open educational resources. At the heart of our own open learning and research practices is the Public Knowledge Project (PKP). From our work in Digital Publishing, hosting OJS journals for students and faculty, to our latest project, SFU’s Knowledge Mobilization Hub, we understand first hand the value of making knowledge public. This shared vision - what it means to be open - is the reason why we continue to serve as PKP’s administrative home, providing human resources, financial, and legal support.” <cite>&ndash; **Gwen Bird** <br/>Dean of Libraries, SFU Library, Simon Fraser University</cite>
 
 ---
 
@@ -29,7 +29,7 @@ SCOSS selected PKP because of our ambition to scale up our hosting and publishin
 
 ### PKP Publishing Services
 
-By choosing OJS and hosting with PKP, our clients are directly supporting and sustaining open infrastructure. From April 1, 2019 to March 31, 2020, Publishing Services brought in 48 new clients (from 22 different countries) for a total of 86 new OJS journals and 1 OMP press. 
+By choosing OJS and hosting with PKP, our clients are directly supporting and sustaining open infrastructure. From April 1, 2019 to March 31, 2020, Publishing Services brought in 48 new clients (from 22 different countries) for a total of 86 new OJS journals and 1 OMP press.
 
 PKP Publishing Services at-a-glance:
 
@@ -47,7 +47,7 @@ PKP Publishing Services at-a-glance:
 
 ### Financial Statements
 
-PKP’s financial management utilizes SFU’s financial system and therefore adheres to all standard institutional budget procedures and policies. The fiscal year is April 1-March 31. All budget amounts are in Canadian dollars. 
+PKP’s financial management utilizes SFU’s financial system and therefore adheres to all standard institutional budget procedures and policies. The fiscal year is April 1-March 31. All budget amounts are in Canadian dollars.
 
 #### Revenue
 

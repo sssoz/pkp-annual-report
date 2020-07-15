@@ -5,7 +5,7 @@ intro: "Behind PKP is a vibrant, passionate, and international community who hel
 ---
 
 {:.blockquote--right .blockquote--patterned}
-> “The University of Toronto Libraries is proud to support PKP in its pursuit of advancing open access via its open source publishing software. Thanks to OJS, we have been able to support a growing number of faculty and student publications since 2005. Offering this service is part of the UTL's strategic priorities. It builds strong and enduring collaboration with faculty, students, staff, our consortial partners at the Ontario Council of University Libraries, and the Canadian scholarly communication community at large, and it fosters evolving research and scholarly publishing approaches that encourage sharing, inclusiveness, and knowledge creation.”  <cite>&ndash; **Larry P. Alford** <br/>University Chief Librarian, University of Toronto</cite>
+> {% include portrait.html name="larry" alt="Portrait of Larry P. Alford" %} “The University of Toronto Libraries is proud to support PKP in its pursuit of advancing open access via its open source publishing software. Thanks to OJS, we have been able to support a growing number of faculty and student publications since 2005. Offering this service is part of the UTL's strategic priorities. It builds strong and enduring collaboration with faculty, students, staff, our consortial partners at the Ontario Council of University Libraries, and the Canadian scholarly communication community at large, and it fosters evolving research and scholarly publishing approaches that encourage sharing, inclusiveness, and knowledge creation.”  <cite>&ndash; **Larry P. Alford** <br/>University Chief Librarian, University of Toronto</cite>
 
 ---
 

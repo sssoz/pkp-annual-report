@@ -49,6 +49,10 @@ blockquote {
   margin-right: auto;
   text-align: center;
 
+  .portrait {
+    margin: 0 auto $spacing-04 auto;
+  }
+
   &:before,
   &:after {
     margin-left: auto;
@@ -79,6 +83,10 @@ blockquote {
   .blockquote--right {
     text-align: right;
     margin-left: 50%;
+
+    .portrait {
+      margin: 0 0 $spacing-04 auto;
+    }
 
     &:before,
     &:after {
