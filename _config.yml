@@ -17,11 +17,13 @@ author:
   twitter: pkp
 
 # Build settings
-
 plugins:
-  - jekyll-feed
+  - jekyll-target-blank
 
 sass:
     style: compressed
 exclude: ["README.md"]
 markdown: kramdown
+
+target-blank:
+  noreferrer: false
