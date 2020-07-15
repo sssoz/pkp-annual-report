@@ -1,13 +1,13 @@
 ---
 heading: Thank You
 subheading: The future is open<span class="text-red text-red--large">.</span>
-intro: "In 2019, PKP was awarded an Open Publishing Lifetime Contribution Award by Coko's Open Publishing Awards. None of our work - past, present, and future - would be possible without the ongoing commitment and support of our community. For those who contributed in 2019-2020, we thank you."
+intro: "In 2019, PKP was awarded an Open Publishing Lifetime Contribution Award, part of the [2019 Open Publishing Awards](https://openpublishingawards.org/). None of our work - past, present, and future - would be possible without the ongoing commitment and support of our community. For those who contributed in 2019-2020, we thank you."
 inverted: true
 ---
 
 ### Contributors
 
-Our thanks to the many individuals and institutions who contributed gifts of time including translators, writers, sprinters, developers, and testers. In particular, we would like to thank members of the PKP Advisory and Technical Committees, Documentation Interest Group, and Accessibility Interest Group.
+Our thanks to the many individuals and institutions who contributed gifts of time including translators, writers, sprinters, developers, and testers. In particular, we would like to thank members of our committees ([Advisory](https://pkp.sfu.ca/about/organization/advisory-committee/), [Technical](https://pkp.sfu.ca/about/organization/technical-committee/), and [Members](https://pkp.sfu.ca/about/organization/members-committee/)) and interest groups ([Documentation Interest Group](https://pkp.sfu.ca/documentation-interest-group/)and [Accessibility Interest Group](https://pkp.sfu.ca/accessibility-interest-group/)).
 
 With special thanks to the following organizations for their support and contributions towards PKP events:
 
@@ -24,7 +24,7 @@ With special thanks to the following organizations for their support and contrib
 ---
 
 ### Sustainers
-PKP Sustainers provide financial support on a renewable, annual basis. Sustainer levels are determined by the amount of financial contribution.  In 2019, the SCOSS program added a new, special/campaign category to our sustainer program. Thank you to the following institutions for their 2019-2020 contributions:
+PKP [sustainers](https://pkp.sfu.ca/sustainers/) provide financial support on a renewable, annual basis. Sustainer levels are determined by the amount of financial contribution.  In 2019, the SCOSS program added a new, special/campaign category to our sustainer program. Thank you to the following institutions for their 2019-2020 contributions:
 
 #### SCOSS
 
@@ -54,7 +54,7 @@ PKP Sustainers provide financial support on a renewable, annual basis. Sustainer
 - University of Ottawa Library
 - University of Victoria Libraries
 - University of Windsor Library
-- Western Libraries, Western University
+- Western Libraries - Western University
 
 #### Bronze Level ($2,500)
 
@@ -62,20 +62,21 @@ PKP Sustainers provide financial support on a renewable, annual basis. Sustainer
 - Carleton University Library
 - Dalhousie University Libraries
 - McMaster University Library
-- Knoxville Libraries, University of Tennessee
+- Knoxville Libraries - University of Tennessee
 - Ohio State University Libraries
 - Queen’s University Library
 - Thai-Journal Citation Index Centre
 - University of Arizona Libraries
 - University of Groningen Library
 - Université Laval Bibliothèque
-- University of Texas at Austin – University of Texas Libraries
+- University of Texas Libraries - University of Texas at Austin
 - Wilfrid Laurier University Library
 
 #### Supporters ($1000 – $2499)
 
 - Academy of Fine Arts Vienna
-- Indiana University – Purdue University Indianapolis (IUPUI) University Libraries
+- Purdue University Indianapolis (IUPUI) University Libraries - Indiana University
+- Mount Royal University Library
 - Ontario Tech University
 - Penn State University Libraries
 - University of Florida Libraries
@@ -97,4 +98,4 @@ The following institutions provide significant financial and in-kind support for
 - **University of British Columbia**
 - **University of Pittsburgh**
 
-Join us! Financial and in-kind contributions help fund PKP's research, software development, and support services. Become a member our established and much appreciated community and help us continue to develop and improve open access/open science infrastructure well into the future.  To make a pledge, [contact us] (https://pkp.sfu.ca/contact-us/).
+Join us! Financial and in-kind contributions help fund PKP's research, software development, and support services. Become a member our established and much appreciated community and help us continue to develop and improve open access/open science infrastructure well into the future.  To make a pledge, [contact us](https://pkp.sfu.ca/contact-us/).
