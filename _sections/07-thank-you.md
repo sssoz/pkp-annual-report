@@ -24,7 +24,7 @@ With special thanks to the following organizations for their support and contrib
 ---
 
 ### Sustainers
-PKP [sustainers](https://pkp.sfu.ca/sustainers/) provide financial support on a renewable, annual basis. Sustainer levels are determined by the amount of financial contribution.  In 2019, the SCOSS program added a new, special/campaign category to our sustainer program. Thank you to the following institutions for their 2019-2020 contributions:
+PKP sustainers provide financial support on a renewable, annual basis. Sustainer levels are determined by the amount of financial contribution.  In 2019, the SCOSS program added a new, special/campaign category to our sustainer program. Thank you to the following institutions for their 2019-2020 contributions:
 
 #### SCOSS
 
