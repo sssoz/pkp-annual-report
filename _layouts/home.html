@@ -16,12 +16,13 @@ layout: compress
       {% for section in site.sections %}
 
       {% capture section_cycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+      {% assign section_name = section.url | remove: '.html' | remove: '/sections/' | slice: 3, section.url.size %}
 
       <section class="section
         {% if section.inverted %} section--inverted
         {% elsif section.highlighted %} section--highlighted{% endif %}
         {% if section.patterned %} section--patterned{% endif %}"
-        id="{{ section.url | remove: '.html' | remove: '/sections/' | slice: 3, section.url.size }}">
+        id="{{ section_name }}">
         <header class="section__header">
           <h2>
             <span class="section__heading">{{ section.heading }}
@@ -34,15 +35,15 @@ layout: compress
               <p>
                 {{ section.intro }}
               </p>
+              <p class="intro__caption" id="#photo-credit-{{ section_name }}">
+                <small><i>{{ section.photo_credit }}</i></small>
+              </p>
             </div>
 
             <figure class="intro__figure intro__figure--right">
               <div>
-                <img src="{{ section.photo }}" alt="{{ section.photo_alt }}"/>
+                <img src="{{ section.photo }}" alt="{{ section.photo_alt }}" aria-labelledby="#photo-credit-{{ section_name }}"/>
               </div>
-              <figcaption>
-                <small>{{ section.photo_credit }}</small>
-              </figcaption>
             </figure>
           </div>
           {% elsif section.intro and section_cycle == 'odd' %}
@@ -51,15 +52,15 @@ layout: compress
               <p>
                 {{ section.intro }}
               </p>
+              <p class="intro__caption" id="#photo-credit-{{ section_name }}">
+                <small><i>{{ section.photo_credit }}</i></small>
+              </p>
             </div>
 
             <figure class="intro__figure intro__figure--left">
               <div>
-                <img src="{{ section.photo }}" alt="{{ section.photo_alt }}"/>
+                <img src="{{ section.photo }}" alt="{{ section.photo_alt }}" aria-labelledby="#photo-credit-{{ section_name }}"/>
               </div>
-              <figcaption>
-                <small>{{ section.photo_credit }}</small>
-              </figcaption>
             </figure>
           </div>
           {% endif %}

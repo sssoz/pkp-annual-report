@@ -18,6 +18,8 @@ blockquote {
   &:before,
   &:after {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     content: '';
     height: $border-third;
     width: $border-triple;
@@ -48,26 +50,6 @@ blockquote {
   }
 }
 
-.blockquote--centered {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-
-  .portrait {
-    margin: 0 auto $spacing-04 auto;
-  }
-
-  &:before,
-  &:after {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  p:before {
-    background-position: left;
-  }
-}
-
 .blockquote--patterned {
   p {
     z-index: 1;
@@ -84,6 +66,14 @@ blockquote {
 }
 
 @media screen and (min-width: 1024px) {
+  blockquote {
+    &:before,
+    &:after {
+      margin-right: auto;
+      margin-left: 0;
+    }
+  }
+
   .blockquote--right {
     text-align: right;
     margin-left: 50%;
@@ -102,6 +92,26 @@ blockquote {
       background-position: right;
       transform: scaleX(-1);
       transform: rotate(180deg);
+    }
+  }
+
+  .blockquote--centered {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+      &:before,
+      &:after {
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+    .portrait {
+      margin: 0 auto $spacing-04 auto;
+    }
+
+    p:before {
+      background-position: left;
     }
   }
 }
