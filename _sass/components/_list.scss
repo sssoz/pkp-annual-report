@@ -1,6 +1,10 @@
 .list {
   @include unstyled-list;
 
+  a {
+    text-decoration: none;
+  }
+
   > li {
     flex-grow: 1;
     margin-top: $spacing-04;
