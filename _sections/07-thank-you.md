@@ -7,7 +7,7 @@ inverted: true
 
 ### Contributors
 
-Our thanks to the many individuals and institutions who contributed gifts of time including translators, writers, sprinters, developers, and testers. In particular, we would like to thank members of our committees ([Advisory](https://pkp.sfu.ca/about/organization/advisory-committee/), [Technical](https://pkp.sfu.ca/about/organization/technical-committee/), and [Members](https://pkp.sfu.ca/about/organization/members-committee/)) and interest groups ([Documentation Interest Group](https://pkp.sfu.ca/documentation-interest-group/)and [Accessibility Interest Group](https://pkp.sfu.ca/accessibility-interest-group/)).
+Our thanks to the many individuals and institutions who contributed gifts of time including translators, writers, sprinters, developers, and testers. In particular, we would like to thank members of our committees ([Advisory](https://pkp.sfu.ca/about/organization/advisory-committee/), [Technical](https://pkp.sfu.ca/about/organization/technical-committee/), and [Members](https://pkp.sfu.ca/about/organization/members-committee/)) and interest groups ([Documentation Interest Group](https://pkp.sfu.ca/documentation-interest-group/) and [Accessibility Interest Group](https://pkp.sfu.ca/accessibility-interest-group/)).
 
 With special thanks to the following organizations for their support and contributions towards PKP events:
 
@@ -98,4 +98,4 @@ The following institutions provide significant financial and in-kind support for
 - **University of British Columbia**
 - **University of Pittsburgh**
 
-Join us! Financial and in-kind contributions help fund PKP's research, software development, and support services. Become a member our established and much appreciated community and help us continue to develop and improve open access/open science infrastructure well into the future.  To make a pledge, [contact us](https://pkp.sfu.ca/contact-us/).
+Financial and in-kind contributions help fund PKP's research, software development, and support services. Become a member our established and much appreciated community and help us continue to develop and improve open access/open science infrastructure well into the future.  To make a pledge, [contact us](https://pkp.sfu.ca/contact-us/).
