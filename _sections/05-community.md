@@ -19,12 +19,7 @@ We also held three development sprints. In May, PKP held a pre-conference sprint
 
 ### Strategic Partners
 
-Strategic Partners include institutions, publishers, and other agencies that have an ongoing consultative relationship with PKP and closely aligned strategic goals. Collaborative activities are wide ranging and may include: collaboration on research projects; development contributions; provision of language translations; assistance with software documentation, learning material or technical support; joint workshops, seminars or conference presentations; and participation in software testing. In 2019, three new strategic partners joined PKP:
-
-{:.list .list--three-col}
-- 4Science
-- Crossref
-- Open Academia
+Strategic Partners include institutions, publishers, and other agencies that have an ongoing consultative relationship with PKP and closely aligned strategic goals. Collaborative activities are wide ranging and may include: collaboration on research projects; development contributions; provision of language translations; assistance with software documentation, learning material or technical support; joint workshops, seminars or conference presentations; and participation in software testing. In 2019, three new strategic partners joined PKP: 4Science, Crossref, and Open Academia.
 
 ### Community Forum
 
