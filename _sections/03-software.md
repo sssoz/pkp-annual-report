@@ -14,7 +14,7 @@ OPS joins Open Monograph Press (OMP) and OJS as applications built using the PKP
 The rise of preprints represents another element in the broader move toward open science. It is still early days for OPS, but we look forward to seeing how, like OJS, this software will adapt and grow to meet the needs of scholars around the world.
 
 {:.blockquote--centered .blockquote--patterned}
-> “PKP products build affordable state of art innovative open science research communication infrastructure worldwide. SciELO Network is highly dependent on OJS and more recently on OPS. We are proud to partner with PKP.” <cite>&ndash; **Abel Packer**  <br/>Director, SciELO Network</cite>
+> “PKP products build affordable state of art innovative open science research communication infrastructure worldwide. The SciELO Network is highly dependent on OJS and more recently on OPS. We are proud to partner with PKP.” <cite>&ndash; **Abel Packer**  <br/>Director, SciELO Network</cite>
 
 ### Web Accessibility Audit
 
