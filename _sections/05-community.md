@@ -22,25 +22,19 @@ We also held three development sprints. In May, PKP held a pre-conference sprint
 
 ### Strategic Partners
 
-[Strategic Partners](https://pkp.sfu.ca/strategic-partners/) include institutions, publishers, and other agencies that have an ongoing consultative relationship with PKP and closely aligned strategic goals. Collaborative activities are wide ranging and may include: collaboration on research projects; development contributions; provision of language translations; assistance with software documentation, learning material or technical support; joint workshops, seminars or conference presentations; and participation in software testing. In 2019, three new strategic partners joined PKP:
-
-{:.list .list--three-col .list--numbered}
-- [**4Science**](https://www.4science.it/)
-- [**Crossref**](https://www.crossref.org/)
-- [**Open Academia**](https://www.openacademia.net/)
+[Strategic Partners](https://pkp.sfu.ca/strategic-partners/) include institutions, publishers, and other agencies that have an ongoing consultative relationship with PKP and closely aligned strategic goals. Collaborative activities are wide ranging and may include: collaboration on research projects; development contributions; provision of language translations; assistance with software documentation, learning material or technical support; joint workshops, seminars or conference presentations; and participation in software testing. In 2019, three new strategic partners joined PKP: [4Science](https://www.4science.it/), [Crossref](https://www.crossref.org/), and [Open Academia](https://www.openacademia.net/).
 
 ### Community Forum
 
 The [PKP Community Forum](https://forum.pkp.sfu.ca/) is more than just an online discussion board. It is a gathering place, a source of knowledge, and a safe space for inquiring minds. Participants come from all over the world, from all types of professions, and bring a range of skills and abilities. In 2019, trending topics included DOIs, themes, plugins, and upgrading.
 
-Forum statistics from April 1, 2019-March 31, 2019:
+#### Forum statistics from April 1, 2019-March 31, 2019:
 
-<article class="stats">
+<div class="stats">
   {% for stat in site.data.community.forum %}
   <div class="stat">
-    <h4>{{ stat.service }}</h4>
     <span class="stat__value">{{ stat.value }}</span>
     <span class="stat__label">{{ stat.label }}</span>
   </div>
   {% endfor %}
-</article>
+</div>

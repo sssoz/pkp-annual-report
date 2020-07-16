@@ -27,13 +27,13 @@ The release of OJS 3 in 2016 included significant user interface/user experience
 
 In January 2020, PKP began using Weblate, “[a web tool designed to ease translating for both developers and translators](https://translate.pkp.sfu.ca/engage/ojs/)” to translate PKP software. Since making this change, we have had a huge increase in translation contributions. To date, we have 159 active Weblate users.
 
-The [translation project for OJS](https://translate.pkp.sfu.ca/engage/ojs/) currently contains:
+#### The [translation project for OJS](https://translate.pkp.sfu.ca/engage/ojs/) currently contains:
 
-<article class="stats">
+<div class="stats">
   {% for stat in site.data.development.translation %}
   <div class="stat">
     <span class="stat__value">{{ stat.value }}</span>
     <span class="stat__label">{{ stat.label }}</span>
   </div>
   {% endfor %}
-</article>
+</div>

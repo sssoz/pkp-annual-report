@@ -35,16 +35,16 @@ SCOSS selected PKP because of our ambition to scale up our hosting and publishin
 
 By choosing OJS and hosting with PKP, our clients are directly supporting and sustaining open infrastructure. From April 1, 2019 to March 31, 2020, Publishing Services brought in 48 new clients (from 22 different countries) for a total of 86 new OJS journals and 1 OMP press.
 
-PKP Publishing Services at-a-glance:
+#### PKP Publishing Services at-a-glance:
 
-<article class="stats">
+<div class="stats">
   {% for stat in site.data.sustainability %}
   <div class="stat">
     <span class="stat__value">{{ stat.value }}</span>
     <span class="stat__label">{{ stat.label }}</span>
   </div>
   {% endfor %}
-</article>
+</div>
 
 
 ---

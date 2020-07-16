@@ -27,11 +27,11 @@ As our community grows, so too does our expertise. PKP staff and community membe
 
 From April 1, 2019 to March 31, 2020, the PKP Docs Hub (launched in 2018) continued to thrive, including visits from 178 countries:
 
-<article class="stats">
+<div class="stats">
   {% for stat in site.data.support-services.support %}
   <div class="stat">
     <span class="stat__value">{{ stat.value }}</span>
     <span class="stat__label">{{ stat.label }}</span>
   </div>
   {% endfor %}
-</article>
+</div>
