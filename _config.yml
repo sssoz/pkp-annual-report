@@ -1,6 +1,7 @@
 # Site settings
 
-title: PKP’s Annual Report 2020
+title: Annual Report
+year: 2019
 description: >- # this means to ignore newlines until "baseurl:"
   PKP is a multi-university initiative developing (free) open source software and conducting research to improve the quality and reach of scholarly publishing.
 baseurl: "" # the subpath of your site, e.g. /blog
