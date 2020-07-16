@@ -23,10 +23,24 @@
 </footer>
 
 <script>
-  var openMenu = document.querySelector("#tocToggler"),
-      nav =      document.querySelector(".nav");
+  menu = document.getElementById("stickyMenu");
 
-  openMenu.addEventListener('click', function() {
-    nav.classList.toggle("nav--active");
-  }, false);
+  var displayOnScroll = function() {
+    var y = window.scrollY;
+    if (y >= 400) {
+      menu.className = "sticky-menu sticky-menu--displayed"
+    } else {
+      menu.className = "sticky-menu sticky-menu--hidden"
+    }
+  };
+
+window.addEventListener("scroll", displayOnScroll);
+
+  var toggler = document.getElementById('tocToggler'),
+      nav     = document.getElementById('nav');
+
+  toggler.onclick = function() {
+    toggler.classList.toggle('close');
+    nav.classList.toggle('nav--active');
+  }
 </script>

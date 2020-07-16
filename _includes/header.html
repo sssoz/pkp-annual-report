@@ -1,4 +1,4 @@
-<header class="section header">
+<header class="section header" id="header">
   <div>
     <a href="https://pkp.sfu.ca/" target="_blank" rel="noopener">
       {% include svg/logo.svg %}
@@ -32,25 +32,22 @@
       <strong>Making <br/>knowledge <br/>public.</strong>
     </p>
   </div>
-
-
-  <!-- <div class="header__toc">
-    <button id="tocToggler" class="button button--cta">Contents</button>
-
-    <nav class="nav">
-      <ol>
-        <li>
-          <a href="#">START</a>
-        </li>
-        {% for section in site.sections %}
-        <li>
-          <a href="#{{ section.url | remove: '.html' | remove: '/sections/' }}">
-            {{ section.url | remove: '.html' | remove: '/sections/' | replace: '-', ' ' | slice: 3, section.url.size | upcase }}
-          </a>
-        </li>
-        {% endfor %}
-      </ol>
-    </nav>
-  </div> -->
-
 </header>
+
+<div class="sticky-menu" id="stickyMenu" aria-hidden="true">
+  <nav class="nav" id="nav">
+    <ol>
+      {% for section in site.sections %}
+      <li>
+        <a href="#{{ section.url | remove: '.html' | remove: '/sections/' | slice: 3, section.url.size }}">
+          {{ section.heading }}
+        </a>
+      </li>
+      {% endfor %}
+    </ol>
+  </nav>
+
+  <button id="tocToggler" class="button" aria-label="menu">
+    
+  </button>
+</div>

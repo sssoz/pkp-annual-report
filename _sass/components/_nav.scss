@@ -4,21 +4,23 @@
 
 .nav--active {
   display: block;
-  // position: fixed;
-  right: $gutter;
-  bottom: $gutter;
-  // padding: $spacing-03;
+  margin-bottom: $spacing-04;
   align-self: flex-end;
   text-align: right;
 
   ol {
+    display: inline-block;
+    border: 1px solid $coal;
+    background-color: $athens-blue;
     @include unstyled-list;
+    padding: 0 $spacing-03;
   }
 
   a {
-    display: block;
-    margin: 0 0 $spacing-03 0;
+    display: inline-block;
+    margin: $spacing-03 0;
     text-decoration: none;
+    line-height: 1;
 
     &:hover,
     &:active,
@@ -27,7 +29,11 @@
     }
   }
 
-  li:last-child a {
-    margin: 0;
+  li {
+    border-bottom: 1px solid $coal;
+
+    &:last-child {
+      border: 0;
+    }
   }
 }

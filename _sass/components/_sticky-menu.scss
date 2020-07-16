@@ -1,0 +1,31 @@
+.sticky-menu {
+  position: fixed;
+  bottom: 5vw;
+  right: 5vw;
+  z-index: 1;
+  transition: all 1s;
+  text-align: right;
+
+  &--hidden {
+    opacity: 0;
+    left: -100%;
+  }
+
+  &--displayed {
+    opacity: 1;
+    left: 0;
+  }
+
+  button {
+    height: 50px;
+    width: 50px;
+    content: ' ';
+    background-image: url("data:image/svg+xml,%3Csvg width='25' height='24' viewBox='0 0 25 24' fill='none' xmlns='http://www.w3.org/2000/svg' style='display: block;'%3E%3Cpath d='M0 2.5H25M0 12H25M0 21.5H25' stroke='white' stroke-width='5'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .close {
+    background-image: url("data:image/svg+xml,%3Csvg width='39' height='39' viewBox='0 0 39 39' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.54594 28.6377L28.6378 9.54586M28.6378 28.6377L9.54594 9.54586' stroke='white' stroke-width='5'/%3E%3C/svg%3E%0A");
+  }
+}

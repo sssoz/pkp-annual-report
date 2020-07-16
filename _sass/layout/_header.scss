@@ -61,16 +61,3 @@
     font-size: 14px;
   }
 }
-
-.header__toc {
-  display: flex;
-  flex-direction: column;
-
-  button {
-    position: fixed;
-    right: $gutter;
-    top: $gutter;
-    align-self: flex-start;
-    color: $athens-blue;
-  }
-}

@@ -5,25 +5,17 @@ button,
   display: inline-block;
   padding: $spacing-02;
   cursor: pointer;
-  border: $border-third solid $prussian-blue;
-  background-color: transparent;
-  color: $prussian-blue;
+  border: $border-third solid $buttercup-yellow;
+  background-color: $buttercup-yellow;;
+  color: $black;
   transition: all 150ms ease-in;
   text-decoration: none;
   @include typescale-06;
   @include font-sans;
 
-  &:hover,
-  &:active,
-  &:focus {
-    background-color: $prussian-blue;
-    color: $white;
+  path {
+    stroke: $black;
   }
-}
-
-.button--cta {
-  background-color: $prussian-blue;
-  color: $white;
 
   &:hover,
   &:active,
@@ -31,5 +23,9 @@ button,
     border-color: $black;
     background-color: $black;
     color: $white;
+
+    path {
+      stroke: $white;
+    }
   }
 }
