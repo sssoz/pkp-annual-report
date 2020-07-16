@@ -3,7 +3,7 @@ heading: Introduction
 subheading: Come in, we’re open<span class="text-red text-red--large">.</span>
 intro: "The Public Knowledge Project is a multi-university initiative developing (free) open source software and conducting research to improve the quality and reach of scholarly publishing."
 patterned: true
-photo: "img/bcn2.jpg"
+photo: "img/bcn7.jpg"
 photo_alt: "A worm’s eye view photograph of a tree."
 photo_credit: "Photograph by <a href='https://nugentimages.com/' target='_blank' rel='noopener'>Jason Nugent</a>."
 ---
