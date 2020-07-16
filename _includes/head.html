@@ -1,23 +1,24 @@
 <head>
   <meta charset="utf-8">
-  <title>{% if page.name != "index.md" %}{{ page.title }} – {% endif %}{{ site.title }}</title>
+  <title>{{ page.title }}</title>
   <meta name="author" content="{{ site.author.name }}">
   <meta name="description" content="{{ site.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <meta name="theme-color" content="#002145">
 
   <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/media/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/media/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/media/favicons/favicon-16x16.png">
-  <link rel="manifest" href="{{ site.url }}/media/favicons/site.webmanifest">
-  <link rel="mask-icon" href="{{ site.url }}/media/favicons/safari-pinned-tab.svg" color="#002145">
-  <link rel="shortcut icon" href="{{ site.url }}/media/favicons/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="{{ site.url }}/img/favicons/site.webmanifest">
+  <link rel="mask-icon" href="{{ site.url }}/img/favicons/safari-pinned-tab.svg" color="#002145">
+  <link rel="shortcut icon" href="{{ site.url }}/img/favicons/favicon.ico">
   <meta name="msapplication-TileColor" content="#002145">
-  <meta name="msapplication-config" content="{{ site.url }}/media/favicons/browserconfig.xml">
+  <meta name="msapplication-config" content="{{ site.url }}/img/favicons/browserconfig.xml">
 
   <!-- OpenGraph -->
   <meta property="og:image" content="" />
+  <meta property="og:image:secure_url" content="{{ site.url }}/img/og-img.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="627" />
   <meta name="twitter:card" content="summary_large_image">
