@@ -1,5 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/818c6390-a0eb-448f-8c37-9bb67e2699d5/deploy-status)](https://app.netlify.com/sites/stupefied-aryabhata-df5953/deploys)
-
 # PKP Annual Report: 2019
 
 A static one-pager for the Public Knowledge Project’s (PKP) annual report built with Jekyll.
@@ -17,9 +15,8 @@ A static one-pager for the Public Knowledge Project’s (PKP) annual report buil
   - `_base/`: variables, mixins, & typography 
   - `_components/`: HTML elements, basic components
   - `_themes`: print styles overrides 
-  - `_vendors`: third-party stylesheets 
   - All partials are imported in `css/main.scss`
-- _Chapters_ or sections of the report are in `_sections`
+- Sections of the report are in `_sections`
   - Each section is prefixed with a number, determining its order
   - One Markdown file per section
   - Every section has frontmatter: 
