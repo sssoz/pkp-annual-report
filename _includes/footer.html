@@ -1,6 +1,6 @@
 <footer class="footer">
   <div>
-    <ul class="list list--two-col">
+    <ul class="list list--two-col footer__logos">
       <li>
         <a href="https://pkp.sfu.ca" target="_blank" rel="noopener">
           {% include svg/logo.svg %}
@@ -13,10 +13,20 @@
         </a>
       </li>
     </ul>
-    <p>
-      <small>© {{ 'now' | date: "%Y" }} Public Knowledge Project.</small>
+    <p class="footer__legal">
+      © {{ 'now' | date: "%Y" }} Public Knowledge Project.
+    </p>
+    <p class="footer__legal">
+      <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">
+        {% include svg/cc.svg %} {% include svg/by.svg %} {% include svg/nc.svg %} {% include svg/nd.svg %}
+      </a>
       <br/>
-      <small>Content on this page is licensed under a <br/><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">Creative Commons Attribution-NonCommercial-NoDerivatives <br/>4.0 International license</a>.</small>
+      Content on this page is licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International license</a>.
+      <br/>
+      <br/>
+      <a href="https://github.com/sssoz/pkp-annual-report/" target="_blank" rel="noopener">
+        {% include svg/gh.svg %}
+      </a>
     </p>
   </div>
   <p class="tagline"><strong>Making <br/>knowledge <br/>public.</strong></p>
