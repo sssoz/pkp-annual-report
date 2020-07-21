@@ -3,10 +3,24 @@
   padding-bottom: $gutter;
   @include typescale-06;
 
-  svg {
+  a {
+    text-decoration: none;
+  }
+
+  &__logos svg {
     margin-bottom: $spacing-04;
     height: 75px;
     width: auto;
+  }
+
+  &__legal {
+    width: 50%;
+
+    svg {
+      margin-bottom: $spacing-02;
+      height: 25px;
+      width: auto;
+    }
   }
 
   li {
