@@ -12,7 +12,7 @@ photo_credit: "Photograph by <a href='https://nugentimages.com/' target='_blank'
 
 Our thanks to the many individuals and institutions who contributed gifts of time including translators, writers, sprinters, developers, and testers. In particular, we would like to thank members of our committees ([Advisory](https://pkp.sfu.ca/about/organization/advisory-committee/), [Technical](https://pkp.sfu.ca/about/organization/technical-committee/), and [Members](https://pkp.sfu.ca/about/organization/members-committee/)) and interest groups ([Documentation Interest Group](https://pkp.sfu.ca/documentation-interest-group/) and [Accessibility Interest Group](https://pkp.sfu.ca/accessibility-interest-group/)).
 
-With special thanks to the following organizations for their support and contributions towards PKP events:
+With special thanks to the following organizations for providing space, staff, and support towards PKP events:
 
 {:.list .list--three-col}
 - **Universitat Autònoma de Barcelona**
