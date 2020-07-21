@@ -48,16 +48,18 @@ PKP sustainers provide financial support on a renewable, annual basis. Sustainer
 
 #### Silver Level ($5,000)
 
+- Thai-Journal Citation Index Centre
 - Ubiquity Press
 - University of Calgary Libraries
 - University of Guelph Library
-- University of Illinois (Chicago / Urbana-Champaign) Libraries
+- University of Illinois at Chicago Library
+- University of Illinois at Urbana-Champaign Library
 - University of Manitoba Libraries
 - University of Miami Libraries
 - University of Ottawa Library
 - University of Victoria Libraries
 - University of Windsor Library
-- Western Libraries - Western University
+- Western Libraries, Western University
 
 #### Bronze Level ($2,500)
 
@@ -65,24 +67,23 @@ PKP sustainers provide financial support on a renewable, annual basis. Sustainer
 - Carleton University Library
 - Dalhousie University Libraries
 - McMaster University Library
-- Knoxville Libraries - University of Tennessee
+- Knoxville Libraries, University of Tennessee
 - Ohio State University Libraries
 - Queen’s University Library
-- Thai-Journal Citation Index Centre
 - University of Arizona Libraries
 - University of Groningen Library
 - Université Laval Bibliothèque
-- University of Texas Libraries - University of Texas at Austin
+- University of Texas Libraries, University of Texas at Austin
 - Wilfrid Laurier University Library
 
 #### Supporters ($1000 – $2499)
 
 - Academy of Fine Arts Vienna
-- Purdue University Indianapolis (IUPUI) University Libraries - Indiana University
 - Mount Royal University Library
-- Ontario Tech University
+- Ontario Tech Libraries
 - Penn State University Libraries
 - University of Florida Libraries
+- University Library, Indiana University-Purdue University Indianapolis (IUPUI)
 - University of Waterloo Library
 
 ---
