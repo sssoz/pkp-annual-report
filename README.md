@@ -22,15 +22,19 @@ A static one-pager for the Public Knowledge Project’s (PKP) annual report buil
   - Every section has frontmatter: 
     - `heading`: section title
     - `subheading`: section subtitle / tagline
-    - `intro`: description 
+    - `intro`: short, single-paragraph description of the section
+    - `photo`: relative url for the associated section photo
+    - `photo_alt`: alt text for the photo
+    - `photo_credit`: credit for the photo
     - `inverted`: section has a dark background & white text, set to `true` or `false`
     - `highlighted`: section has a highlighted background, set to `true` or `false`
+    - `patterned`: section displays the “ladders” pattern as background, set to `true` or `false`
 
 ---
 
 ## Setting up the site
 
-Ruby must be installed.
+Ruby & Jekyll must be installed.
 
 1. `gem install jekyll`
 
@@ -43,4 +47,4 @@ Ruby must be installed.
 ### Building the website
 
 1. `jekyll build`
-2. Content to be published will be found in `/_site`
+2. Content to be published will be found in `_site/`
