@@ -61,7 +61,7 @@ PKP’s financial management utilizes SFU’s financial system and therefore adh
 |-----------------------------------|------------|
 | Publishing Services               | $632,788.73 | $784,603.05   |
 | Grants                            | $575, 827.61 | $428,632.21   |
-| Development, Partners, & Sponsors | $165,893.10 | $270,130.67   |
+| Development Partners/Sustainers | $165,893.10 | $270,130.67   |
 | SFU Library (in-kind)             | $64,328.23 | $107,230.89  |
 | **Total**                         | $1,438,837.67 | $1,590,596.82 |
 
