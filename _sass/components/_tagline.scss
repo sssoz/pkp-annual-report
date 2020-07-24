@@ -1,5 +1,8 @@
 .tagline {
-  text-align: right;
   line-height: 1.15;
   @include typescale-05;
+
+  @media screen and (min-width: 768px) {
+    text-align: right;
+  }
 }
