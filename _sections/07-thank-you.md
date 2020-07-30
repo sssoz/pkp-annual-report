@@ -94,7 +94,7 @@ The following institutions provide significant financial and in-kind support for
 
 {:.list .list--small .list--six-col}
 - **Ontario Council of University Libraries**
-- **Simon Fraser Unviersity**
+- **Simon Fraser University**
 - **Stanford University**
 - **University of Alberta**
 - **University of British Columbia**
